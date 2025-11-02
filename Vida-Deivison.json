@@ -1,0 +1,285 @@
+{
+  "meta": {
+    "versao": "1.0.0",
+    "criacao": "2025-11-02T10:00:00Z",
+    "ultima_atualizacao": "2025-11-02T10:00:00Z",
+    "descricao": "Sistema backup mental completo - Deivison Santana 2025",
+    "formato": "vetorial_denso",
+    "objetivo": "Contexto universal clonável, interável por qualquer IA"
+  },
+  "perfil": {
+    "identidade": {
+      "nome": "Deivison Santana",
+      "idade": 25,
+      "altura": 1.70,
+      "peso_atual_kg": 60,
+      "peso_meta_kg": 70,
+      "prazo_meta": "2026-05-01",
+      "localizacao": "Feira de Santana/BA"
+    },
+    "trabalho": {
+      "cargo": "Técnico em TI",
+      "local": "UFRB CETENS",
+      "horario": "07:20-18:00",
+      "dias": ["segunda", "terca", "quarta", "quinta", "sexta"],
+      "transporte": "ônibus_06h00",
+      "vale_alimentacao": 420.0
+    },
+    "psicologico": {
+      "perfil": "impulsividade_infantil_extrema",
+      "comportamento": "Tudo que vejo, como/faço/jogo",
+      "necessidade": "Sistema escrito = hack vida",
+      "personalidade": "Perfeccionista. Se não tô gostando, mudo.",
+      "medo_principal": "Esquecer seguir rotina, impulsos vencerem",
+      "esperanca_6meses": {
+        "fisico": "Mais forte 70kg, sem dor costas, sem fadiga",
+        "mental": "Mais inteligente, adaptado trabalho",
+        "filosofico": "Juventude 25-30 não jogada fora"
+      }
+    }
+  },
+  "financas": {
+    "renda_mensal": {
+      "salario_liquido": 1866.53,
+      "vale_alimentacao": 420.0,
+      "vale_transporte": 320.0,
+      "total": 2606.53
+    },
+    "gastos_fixos": {
+      "agua": 150.0,
+      "luz": 150.0,
+      "internet": 79.99,
+      "total": 379.99
+    },
+    "gastos_variaveis": {
+      "alimentacao_quinzenal": 250.0,
+      "alimentacao_mensal": 500.0
+    },
+    "sobra_mensal": 1086.54,
+    "filosofia_financeira": "Tecnologia > carro/casa. Sobra livre para investir futuro."
+  },
+  "alimentacao": {
+    "meta_diaria": {
+      "calorias": 2400,
+      "calorias_min": 2200,
+      "proteina_g": 100,
+      "proteina_min_g": 90,
+      "proteina_max_g": 120,
+      "carboidratos_g": 300,
+      "gordura_g": 55
+    },
+    "refeicoes_padrao": {
+      "cafe_trabalho": {
+        "horario": "07:25",
+        "itens": ["2 pães forma", "2 hambúrgueres", "café grátis", "limonada"],
+        "calorias": 550,
+        "proteina_g": 30
+      },
+      "almoco_trabalho": {
+        "horario": "12:00",
+        "valor": 18.0,
+        "estrategia": "Guardar R$ 2 latinha (R$ 20 Pluxee)",
+        "calorias": 700,
+        "proteina_g": 35
+      },
+      "lanche_trabalho": {
+        "horario": "16:00",
+        "itens": ["1 pão forma", "1 hambúrguer", "1 banana"],
+        "calorias": 400,
+        "proteina_g": 20
+      },
+      "jantar_casa": {
+        "horario": "19:30",
+        "itens": ["feijão", "arroz", "frango", "ovo", "farofa"],
+        "calorias": 650,
+        "proteina_g": 35,
+        "alerta": "⚠️ NÃO ESQUECER! Alarme 19:30"
+      }
+    },
+    "ansiedade_oral": {
+      "problema": "Ansiedade oral trabalho = comer sem fome",
+      "substitutos_doce": ["goma chiclete", "banana", "cenoura", "limonada", "café"],
+      "estrategia": "Substituir impulso doce por saudável",
+      "custo_substitutos_quinzenal": 18.0
+    },
+    "hacks": {
+      "feijao_congelado": "Congelar quente = derreter rápido, sabor melhor",
+      "limao_tahiti": "Rolar antes cortar = mais suco",
+      "sobra_pluxee": "R$ 24 restantes = comprar proteínas extras",
+      "batch_cooking": "Cozinhar 1h domingo = não cozinhar semana inteira"
+    }
+  },
+  "lista_compras_quinzenal": {
+    "orcamento": 250.0,
+    "gasto_real": 174.4,
+    "economia": 75.6,
+    "categorias": {
+      "proteinas": {
+        "total": 73.0,
+        "itens": {
+          "hamburguer_congelado": {"quantidade": "15un", "preco": 35.0},
+          "frango_kg": {"quantidade": "2kg", "preco": 30.0},
+          "ovos": {"quantidade": "30un", "preco": 8.0}
+        }
+      },
+      "carboidratos": {
+        "total": 49.9,
+        "itens": {
+          "pao_forma": {"quantidade": "3 pacotes", "preco": 14.85},
+          "arroz": {"quantidade": "2kg", "preco": 10.0},
+          "feijao": {"quantidade": "1kg", "preco": 6.05},
+          "macarrao": {"quantidade": "2kg", "preco": 9.0},
+          "batata_doce": {"quantidade": "1kg", "preco": 5.0},
+          "farofa_pronta": {"quantidade": "500g", "preco": 5.0}
+        }
+      },
+      "hortifruti": {
+        "total": 21.5,
+        "itens": {
+          "banana": {"quantidade": "3kg", "preco": 6.0},
+          "limao_tahiti": {"quantidade": "20un", "preco": 3.0},
+          "tomate": {"quantidade": "1kg", "preco": 4.5},
+          "cebola": {"quantidade": "500g", "preco": 2.5},
+          "cenoura": {"quantidade": "500g", "preco": 2.5},
+          "alface": {"quantidade": "1un", "preco": 3.0}
+        }
+      },
+      "substitutos_doce": {
+        "total": 18.0,
+        "itens": {
+          "goma_chiclete": {"quantidade": "3 pacotes", "preco": 9.0},
+          "suco_caixinha": {"quantidade": "3L", "preco": 9.0}
+        }
+      },
+      "despensa": {
+        "total": 12.0,
+        "itens": {
+          "cafe": {"quantidade": "500g", "preco": 7.0},
+          "molho_tomate": {"quantidade": "2un", "preco": 5.0}
+        }
+      }
+    },
+    "mercados": ["Supermercado da Praça Tomba (Pluxee)", "Assaí"],
+    "dia_compras": "domingo_08h00"
+  },
+  "rotina_semanal": {
+    "segunda": {
+      "acordar": "05:00",
+      "especial": "Levar semana inteira pro trabalho",
+      "bolsa": ["15 hambúrgueres congelados", "6 pães forma", "6 bananas", "5 limões"],
+      "peso_bolsa_kg": 3.0,
+      "cafe": {"horario": "07:25", "calorias": 550},
+      "almoco": {"horario": "12:00", "calorias": 700},
+      "lanche": {"horario": "16:00", "calorias": 400},
+      "jantar": {"horario": "19:30", "calorias": 650},
+      "total_calorias": 2300,
+      "total_proteina_g": 110,
+      "checklist": ["Conferir 15 hambúrgueres bolsa", "Guardar frigobar chegando", "NÃO esquecer jantar 19:30"],
+      "diferenca_outros_dias": "Bolsa 3kg vs vazia, +10min organizar manhã"
+    },
+    "terca_a_sexta": {
+      "acordar": "05:00",
+      "especial": "Rotina padrão (tudo já no trabalho)",
+      "bolsa": "vazia",
+      "peso_bolsa_kg": 0.5,
+      "cafe": {"horario": "07:25", "calorias": 550},
+      "almoco": {"horario": "12:00", "calorias": 700},
+      "lanche": {"horario": "16:00", "calorias": 400},
+      "jantar": {"horario": "19:30", "calorias": 650},
+      "total_calorias": 2300,
+      "checklist": ["Bolsa VAZIA", "Jantar 19:30 alarme", "Passar roupa amanhã 20:00"],
+      "vantagens": ["Menos peso bolsa", "Rotina consolidada", "Sem ansiedade"]
+    },
+    "sabado": {
+      "acordar": "10:00_natural",
+      "foco": "Lazer livre (jogos, séries, IA)",
+      "filosofia": "Solitude = escolha, não isolamento",
+      "almoco": {"horario": "10:30", "calorias": 800},
+      "lanche": {"horario": "16:00", "calorias": 500},
+      "jantar": {"horario": "19:30", "calorias": 700},
+      "total_calorias": 2000,
+      "atividades": ["Jogos", "Séries/filmes", "Estudar IA/MCPs", "Sistema vida (Markdowns)"],
+      "checklist": ["NÃO dormir tarde (domingo compras 8h)"]
+    },
+    "domingo": {
+      "acordar": "08:00",
+      "foco": "Compras + Batch Cooking",
+      "compras": {
+        "horario": "08:00-09:30",
+        "local": "Supermercado da Praça Tomba",
+        "valor": 250.0
+      },
+      "batch_cooking": {
+        "horario": "10:00-11:00",
+        "receitas": {
+          "feijao": {"quantidade": "1kg", "tempo_min": 25, "potes": 7},
+          "arroz": {"quantidade": "1kg", "tempo_min": 15, "potes": 7},
+          "frango_grelhado": {"quantidade": "1kg", "tempo_min": 20, "potes": 7},
+          "batata_doce": {"quantidade": "5un", "tempo_min": 30}
+        },
+        "resultado": "Semana pronta sem cozinhar"
+      },
+      "checklist": ["Compras 8h", "Cozinhar 10h", "Congelar tudo 11h30", "Separar hambúrgueres/pães/bananas bolsa segunda", "Alarme 05:00 segunda"]
+    }
+  },
+  "meta_peso_6meses": {
+    "inicio": {"mes": "novembro_2025", "peso_kg": 61},
+    "tracking": [
+      {"mes": "novembro_2025", "peso_kg": 61, "ganho_kg": 1},
+      {"mes": "dezembro_2025", "peso_kg": 62.5, "ganho_kg": 1.5},
+      {"mes": "janeiro_2026", "peso_kg": 64, "ganho_kg": 1.5},
+      {"mes": "fevereiro_2026", "peso_kg": 65.5, "ganho_kg": 1.5},
+      {"mes": "marco_2026", "peso_kg": 67, "ganho_kg": 1.5},
+      {"mes": "abril_2026", "peso_kg": 68.5, "ganho_kg": 1.5},
+      {"mes": "maio_2026", "peso_kg": 70, "ganho_kg": 1.5, "status": "✅ META"}
+    ],
+    "estrategia": "Ganhar ~1.5kg/mês comendo 2.400 kcal/dia + 100g proteína"
+  },
+  "missoes_quinzenais": {
+    "01_semana": ["Comprar quinzenal", "Batch cooking", "Organizar frigobar"],
+    "02_semana": ["Conferir estoque", "Ajustar cardápio", "Avaliar peso"],
+    "objetivo": "Manter rotina 14 dias, depois ajustar"
+  },
+  "despensa_atual": {
+    "arroz_kg": 3,
+    "feijao_kg": 2,
+    "macarrao_kg": 0.5,
+    "sal_kg": 1,
+    "cafe_g": 250,
+    "status": "Estoque baixo, precisa repor quinzenal"
+  },
+  "contexto_conversas": {
+    "conversa_alimentacao_raw": {
+      "arquivo": "Transcricoes/conversa-alimentacao-raw.md",
+      "linhas": 791,
+      "data_captacao": "2025-11-01",
+      "fonte": "Grok Doctor Mode",
+      "topicos": ["alimentação", "rotina trabalho", "ansiedade oral", "finanças"],
+      "insights": ["Banana 2un sempre (linha 544)", "Café grátis + limão R$ 1 (linha 476)"]
+    },
+    "conversa_atualizacao_refatoracao": {
+      "arquivo": "Transcricoes/conversa-atualizacao-refatoracao.md",
+      "linhas": 651,
+      "data_captacao": "2025-11-02T10:00:00Z",
+      "fonte": "Grok Doctor Mode",
+      "topicos": ["refatoração rotina", "orçamento R$ 200-250", "mercados Feira de Santana"],
+      "insights": ["Orçamento quinzenal R$ 200-250 a pé (linha 506)"]
+    }
+  },
+  "sistema_backup_mental": {
+    "objetivo": "Não refazer do zero. Markdowns universais, clonáveis, interáveis.",
+    "estrutura": {
+      "rotinas_diarias": "Pasta Rotinas/Diarias/ - arquivo cada dia semana",
+      "notebook_unico": "rotina.ipynb - cálculos + tracking",
+      "json_vetorial": "Vida-Deivison.json - contexto completo denso",
+      "readme_interavel": "README.md - instruções claras IAs",
+      "transcricoes": "Transcricoes/*.md - conversas originais metadados"
+    },
+    "filosofia": "Sistema hack da vida. Reaproveitamento. Qualquer IA clone repositório = entenda tudo."
+  },
+  "vocabulario_deivison": {
+    "palavras_literais": ["banana", "hambúrguer", "limão", "batata doce", "asinha", "coxa frango", "maçã"],
+    "palavras_nao": ["pasta amendoim", "nozes", "luxos", "complicações"],
+    "filosofia_alimentacao": "Simplicidade. Calorias certas. Proteína suficiente. Sem neura."
+  }
+}
