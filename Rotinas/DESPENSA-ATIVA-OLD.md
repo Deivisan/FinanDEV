@@ -1,12 +1,12 @@
-# 🛒 COMPRAS QUINZENAL - 03/NOV → 09/NOV
+# � DESPENSA ATIVA - Inventário Atual
 
-> **Orçamento:** R$ 200-250 (a pé, limite volume!)  
-> **Mercados:** 🏪 Supermercado da Praça Tomba (Pluxee) | 🏬 Assaí Atacadista  
-> **Meta:** Alimentação estruturada + ganhar 10kg (60kg → 70kg)
+> **Última atualização:** 02/NOV/2025  
+> **Função:** Controle estoque atual casa (O QUE TENHO AGORA)  
+> **Compras registradas:** R$ 254,81 (02/NOV/2025)
 
 ---
 
-## ✅ JÁ TENHO (não comprar)
+## 🏠 ESTOQUE ATUAL (Despensa/Geladeira/Freezer)
 
 - ✅ Arroz 3kg
 - ✅ Feijão 2kg  
@@ -14,6 +14,87 @@
 - ✅ Sal 1kg
 - ✅ Café 100g
 - ✅ Salsichas (algumas)
+
+---
+
+## 🛒 COMPRAS REALIZADAS 02/NOV/2025
+
+> **Total pago:** R$ 254,81 (nota fiscal completa)  
+> **Local:** Supermercado (Feira de Santana)
+
+### 🥕 Hortifrúti (R$ 69,38)
+- ✅ Cenoura 0,745kg @ R$ 7,89/kg = **R$ 5,88**
+- ✅ Batata 1,700kg @ R$ 5,99/kg = **R$ 10,51**
+- ✅ Banana-da-terra 1,870kg @ R$ 7,89/kg = **R$ 14,75**
+- ✅ Banana-prata 2,365kg @ R$ 3,99/kg = **R$ 9,44**
+- ✅ Batata-doce 2,455kg @ R$ 5,99/kg = **R$ 14,71**
+- ✅ Limão 0,815kg @ R$ 5,99/kg = **R$ 4,88**
+- ✅ Tomate 0,450kg @ R$ 2,99/kg = **R$ 1,35**
+- ✅ Alho 0,130kg @ R$ 38,90/kg = **R$ 4,67**
+- ✅ Cebola branca 1,320kg @ R$ 2,89/kg = **R$ 3,81**
+- ✅ Hortaliças (não especificado) = **R$ 2,99**
+
+### 🥩 Proteínas (R$ 96,82)
+- ✅ Ovos 30un = **R$ 15,90**
+- ✅ Hambúrguer Fast Burger 19un @ R$ 1,29 = **R$ 24,51**
+- ✅ Mortadela 0,474kg @ R$ 12,90/kg = **R$ 6,11**
+- ✅ Asa de frango envelopado 1un = **R$ 19,90**
+- ✅ Filé peito Sadia 1un = **R$ 24,90**
+- ✅ Salsadinha Palmeira 1un = **R$ 5,89**
+- ✅ Sardinha lata (sabor tomate) 1un = **R$ 5,79**
+
+### 🍞 Carboidratos (R$ 18,65)
+- ✅ Flocão milho Maratá 2un @ R$ 1,89 = **R$ 3,78**
+- ✅ Flocão milho Maratá (adicional) 1un = **R$ 1,89**
+- ✅ Massa sopa Brandini 1un = **R$ 3,99**
+- ✅ Pão barroquinha com passas 1 pacote = **R$ 6,99**
+- ✅ Óleo soja 1un = **R$ 9,85**
+
+### 🍫 Extras (R$ 17,98)
+- ✅ Chocolate ao leite 1 barra = **R$ 8,99** (já comeu)
+- ✅ Chocolate Laka 1 barra = **R$ 8,99** (já comeu)
+
+### 🧼 Limpeza & Higiene (R$ 44,12)
+- ✅ Água sanitária IP 1un = **R$ 3,49**
+- ✅ Lã de aço Bombril 1un = **R$ 2,69**
+- ✅ Desodorante 1un = **R$ 6,99**
+- ✅ Lâmina barbear Probac 2un @ R$ 1,99 = **R$ 3,98**
+- ✅ Desinfetante (cheiro) 1un = **R$ 2,99**
+- ✅ Amaciante Guni Emoção 2L = **R$ 6,75**
+- ✅ Álcool Santa Cruz 500ml = **R$ 7,49**
+
+### 💰 Resumo Compra
+- Hortifrúti: R$ 69,38
+- Proteínas: R$ 96,82
+- Carboidratos: R$ 18,65
+- Extras (chocolates): R$ 17,98
+- Limpeza/Higiene: R$ 44,12
+- **Subtotal:** R$ 255,90*
+- **Sacolas:** R$ 0,91 (cobradas)
+- **TOTAL NOTA:** R$ 254,81 ✅
+
+*Diferença R$ 1,09 = arredondamentos/impostos
+
+---
+
+## 📊 BANCO DADOS PREÇOS (Base histórica 02/NOV/2025)
+
+| Item | Preço/kg ou unidade | Local | Data |
+|------|---------------------|-------|------|
+| Cenoura | R$ 7,89/kg | Feira | 02/11 |
+| Batata | R$ 5,99/kg | Feira | 02/11 |
+| Banana-da-terra | R$ 7,89/kg | Feira | 02/11 |
+| Banana-prata | R$ 3,99/kg | Feira | 02/11 |
+| Batata-doce | R$ 5,99/kg | Feira | 02/11 |
+| Limão | R$ 5,99/kg | Feira | 02/11 |
+| Tomate | R$ 2,99/kg | Feira | 02/11 |
+| Alho | R$ 38,90/kg | Feira | 02/11 |
+| Cebola branca | R$ 2,89/kg | Feira | 02/11 |
+| Hambúrguer Fast Burger | R$ 1,29/un | Feira | 02/11 |
+| Mortadela | R$ 12,90/kg | Feira | 02/11 |
+| Ovos 30un | R$ 15,90 | Feira | 02/11 |
+| Flocão Maratá | R$ 1,89/un | Feira | 02/11 |
+| Óleo soja | R$ 9,85/un | Feira | 02/11 |
 
 ---
 
