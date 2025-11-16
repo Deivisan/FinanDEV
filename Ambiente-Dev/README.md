@@ -68,4 +68,8 @@ Este diretório serve como **contexto vivo** do ambiente de desenvolvimento comp
 
 ---
 
-*Documentação viva | Atualizar conforme mudanças*
+- **Documentação:** `README.md` (este arquivo)
+
+---
+
+> 📝 Documentação viva - Atualizar conforme mudanças

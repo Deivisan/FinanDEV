@@ -46,6 +46,8 @@ Dashboard único que centraliza:
 
   -
 
+  -
+
   - Quick actions (botões ação rápida)
 
 ### Backend (dashboard.py - FastAPI)

@@ -6,28 +6,19 @@
 
 > **Última Atualização:**
 
-> **Conversas:**
-> -
+## Conversas
 
-> - 16/11 07:00-09:00 (166 msgs) - Camerologia, Face-Capture, Finanças Auto, Emails
+- [Conversa Inicial (02/11)](../Transcricoes/conversa-alimentacao-raw.md)
+
+- [Conversa 16/11 (166 msgs)](../Transcricoes/d2d60e7c-97dd-4bfd-822e-9a2c722f7b16.md) - Camerologia, Face-Capture, Finanças Auto, Emails
 
 ---
 
-## 📋 Índice de Mudanças
+## Índice
 
-- [Repositório Base (FinanDEV)](#repositório-base)
+-
 
-- [Mini-Sistemas Identificados](#mini-sistemas)
-
-- [Novos Repositórios](#novos-repositórios)
-
-- [Migrações de Formato](#migrações)
-
-- [Metas de Trabalho (CETENS)](#metas-trabalho)
-
-- [Sistemas Sociais](#sistemas-sociais)
-
-- [Tecnologias e Ferramentas](#tecnologias)
+  - [Mudanças Concluídas](#-mudanças-concluídas)
 
 ---
 

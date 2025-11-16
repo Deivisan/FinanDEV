@@ -58,21 +58,11 @@
 
 ---
 
-## 📥 Download Links
+## Links Úteis
 
-### Celso Azevedo (Hub Oficial)
+- [Celso Azevedo GCam Hub](https://celsoazevedo.com/files/android/google-camera)
 
-- https://celsoazevedo.com/files/android/google-camera
-
-- Navegue: Dev → BSG ou Hasli
-
-- Filtros: Snapdragon, Android 14+ compatível
-
-### XDA Developers
-
-- Forum Poco X5 específico
-
-- Threads com feedback comunidade
+- XDA Developers: <https://forum.xda-developers.com/t/gcam-google-camera-port.3910259/>
 
 ---
 
@@ -132,4 +122,8 @@
 
 ---
 
-*Documentação viva | Atualizar conforme novos ports lançarem*
+| ⏳ | Testando face capture integrado |
+
+---
+
+> 📝 Documentação viva - Atualizar conforme novos ports lançarem

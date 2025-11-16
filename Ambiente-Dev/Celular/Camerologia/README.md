@@ -46,7 +46,7 @@
 |---------|--------|-------|
 | HDR+
 
-| Night Sight | ⚪ | -
+| Night Sight | ⚪ | - |
 
 | Panorama 360° | ⚪ | -
 
@@ -68,7 +68,7 @@
 |---------|--------|-------|
 | HDR+
 
-| Night Sight | ⚪ | -
+| Night Sight | ⚪ | - |
 
 | Panorama 360° | ⚪ | Auto-stitching melhorado |
 | Filmagem 4K 60fps | ⚪ | -
@@ -89,7 +89,7 @@
 |---------|--------|-------|
 | HDR+
 
-| Night Sight | ⚪ | -
+| Night Sight | ⚪ | - |
 
 | Panorama 360° | ⚪ | -
 
@@ -111,7 +111,7 @@
 | Sensores Extras | ⚪ | Ativa 48MP completo |
 | HDR+
 
-| Night Sight | ⚪ | -
+| Night Sight | ⚪ | - |
 
 | Panorama 360° | ⚪ | - |
 
@@ -124,7 +124,7 @@
 | IA Avançada | ⚪ | Recursos Pixel novos |
 | HDR+
 
-| Night Sight | ⚪ | -
+| Night Sight | ⚪ | - |
 
 | Panorama 360° | ⚪ | - |
 
@@ -225,7 +225,7 @@
 
 6. Escolher top 3 para manter instaladas
 
-**Preencher checklist acima conforme testes avançarem**
+> 📝 Preencher checklist acima conforme testes avançarem
 
 ---
 

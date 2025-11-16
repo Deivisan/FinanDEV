@@ -24,23 +24,17 @@
 
 ## 🛠️ Duas Abordagens
 
-### Opção 1: Google Photos API (Oficial)
+### Opção 1: Aceitar a Desorganização Atual
 
-#### Vantagens
+#### Vantagens (Opção 1)
 
-- **Preciso:** Acesso metadados completos (data, local, faces)
+- Zero esforço
 
-- **Seguro:** OAuth oficial Google
+- Nenhuma mudança necessária
 
-- **Escalável:** Milhares de fotos processadas rapidinho
+- Fotos preservadas como estão
 
-#### Desvantagens
-
-- **Precisa cartão:** Google Cloud exige método pagamento (mesmo tier free)
-
-- **Setup complexo:** OAuth, credentials, scopes
-
----
+#### Desvantagens (Opção 1)
 
 ### Opção 2: Playwright Automation (Sem API)
 

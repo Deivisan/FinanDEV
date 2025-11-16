@@ -4,10 +4,10 @@
 
 > 3 conversas Grok processadas (1116 msgs) + 7 mini-sistemas + Camerologia + Dashboard
 
-[![Status](https://img.shields.io/badge/status-🚀_expansão_ativa-success)]()
-[![Commits](https://img.shields.io/badge/commits_semana-4-blue)]()
-[![Linhas](https://img.shields.io/badge/docs-8000%2B_linhas-orange)]()
-[![Conversas](https://img.shields.io/badge/transcrições-1116_msgs-purple)]()
+[![Status](https://img.shields.io/badge/status-🚀_expansão_ativa-success)](https://github.com/Deivisan/FinanDEV)
+[![Commits](https://img.shields.io/badge/commits_semana-4-blue)](https://github.com/Deivisan/FinanDEV/commits)
+[![Linhas](https://img.shields.io/badge/docs-8000%2B_linhas-orange)](https://github.com/Deivisan/FinanDEV)
+[![Conversações](https://img.shields.io/badge/transcrições-1116_msgs-purple)](./Transcricoes)
 
 ---
 
