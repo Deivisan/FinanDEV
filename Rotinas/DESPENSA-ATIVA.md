@@ -1,6 +1,7 @@
 # 📦 DESPENSA ATIVA
 
-> **Última atualização:** 02/NOV/2025  
+> **Última atualização:**
+
 > **Função:** O que eu TENHO agora (inventário casa/trabalho)
 
 ---
@@ -8,14 +9,23 @@
 ## 🥕 Hortifrúti
 
 - ✅ Cenoura 0,745kg
+
 - ✅ Batata 1,700kg
+
 - ✅ Banana-da-terra 1,870kg
+
 - ✅ Banana-prata 2,365kg
+
 - ✅ Batata-doce 2,455kg
+
 - ✅ Limão 0,815kg
+
 - ✅ Tomate 0,450kg
+
 - ✅ Alho 0,130kg
+
 - ✅ Cebola 1,320kg
+
 - ✅ Hortaliças verdes (couve/cheiro-verde)
 
 ---
@@ -23,10 +33,15 @@
 ## 🥩 Proteínas
 
 - ✅ Ovos 30un
+
 - ✅ Hambúrguer Fast Burger 19un
+
 - ✅ Mortadela 0,474kg
+
 - ✅ Asa frango 1,035kg
+
 - ✅ Peito frango Sadia 0,650kg
+
 - ✅ Sardinha lata 1un
 
 ---
@@ -34,11 +49,17 @@
 ## 🍞 Carboidratos
 
 - ✅ Flocão milho Maratá 3un (2 novos + 1 antigo)
+
 - ✅ Massa sopa 1 pacote
+
 - ✅ Pão barroquinha
+
 - ✅ Óleo soja 900ml
+
 - ✅ Arroz 3kg
+
 - ✅ Feijão 2kg
+
 - ✅ Macarrão 0,5kg
 
 ---
@@ -46,8 +67,11 @@
 ## 🧈 Básicos
 
 - ❌ Manteiga (ACABOU - comprar urgente)
+
 - ✅ Sal 1kg
+
 - ✅ Açúcar
+
 - ✅ Café 100g
 
 ---
@@ -55,11 +79,17 @@
 ## 🧼 Limpeza & Higiene
 
 - ✅ Água sanitária 1un
+
 - ✅ Lã de aço 1un
+
 - ✅ Desodorante 1un
+
 - ✅ Lâmina barbear 4un
+
 - ✅ Desinfetante Qboa 1L
+
 - ✅ Amaciante 2L
+
 - ✅ Álcool 70% 1L
 
 ---

@@ -1,5 +1,6 @@
 ===
-DATA CAPTAÇÃO: 01/11/2025 (estimado - conversa original)
+DATA CAPTAÇÃO: 01/11/2025 (estimado -
+
 DATA CRIAÇÃO ARQUIVO: 02/11/2025 15:30
 FONTE: Grok Doctor Mode (conversa voz transcrita)
 TÓPICO: Alimentação, rotina trabalho, ansiedade oral, finanças pessoais
