@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FinanDEV Dashboard | Deivison Santana</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <h1>🧠 <span class="brand">FinanDEV</span></h1>
+                    <p class="subtitle">Backup Mental | Deivison Santana</p>
+                </div>
+                <div class="header-stats">
+                    <div class="stat">
+                        <span class="stat-label">Última atualização</span>
+                        <span class="stat-value" id="last-update">[A CARREGAR]</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-label">Commits semana</span>
+                        <span class="stat-value" id="commits-week">[A CARREGAR]</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container">
+        <!-- Quick Actions -->
+        <section class="quick-actions">
+            <h2>⚡ Ações Rápidas</h2>
+            <div class="actions-grid">
+                <button class="action-btn" onclick="addWeight()">
+                    <span class="action-icon">⚖️</span>
+                    Registrar Peso
+                </button>
+                <button class="action-btn" onclick="addMood()">
+                    <span class="action-icon">😊</span>
+                    Registrar Humor
+                </button>
+                <button class="action-btn" onclick="addTask()">
+                    <span class="action-icon">✅</span>
+                    Nova Tarefa
+                </button>
+                <button class="action-btn" onclick="quickCommit()">
+                    <span class="action-icon">🚀</span>
+                    Commit Rápido
+                </button>
+            </div>
+        </section>
+
+        <!-- Cards Grid -->
+        <section class="cards-grid">
+            <!-- Card 1: Peso/Físico -->
+            <div class="card">
+                <div class="card-header">
+                    <h3>🏋️ Progresso Físico</h3>
+                    <span class="card-status">Meta: 70kg</span>
+                </div>
+                <div class="card-body">
+                    <div class="metric-row">
+                        <span class="metric-label">Peso Atual</span>
+                        <span class="metric-value" id="current-weight">[A EDITAR] kg</span>
+                    </div>
+                    <div class="metric-row">
+                        <span class="metric-label">Meta</span>
+                        <span class="metric-value">70kg (maio/2026)</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" id="weight-progress" style="width: 0%;"></div>
+                    </div>
+                    <div class="metric-row">
+                        <span class="metric-label">Progresso</span>
+                        <span class="metric-value" id="weight-percent">0% (0/10kg)</span>
+                    </div>
+                    <div class="metric-row">
+                        <span class="metric-label">Última Foto</span>
+                        <span class="metric-value">[A ADICIONAR]</span>
+                    </div>
+                    <div class="metric-row">
+                        <span class="metric-label">Próxima Foto</span>
+                        <span class="metric-value">01/12/2025</span>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <button class="btn-small" onclick="viewTimeline()">Ver Timeline</button>
+                    <button class="btn-small" onclick="uploadPhoto()">Upload Foto</button>
+                </div>
+            </div>
+
+            <!-- Card 2: Nutrição -->
+            <div class="card">
+                <div class="card-header">
+                    <h3>🍽️ Nutrição Hoje</h3>
+                    <span class="card-status">2400 kcal/dia</span>
+                </div>
+                <div class="card-body">
+                    <div class="metric-row">
+                        <span class="metric-label">Calorias Meta</span>
+                        <span class="metric-value">2400 kcal/dia</span>
+                    </div>
+                    <div class="metric-row">
+                        <span class="metric-label">Proteínas Meta</span>
+                        <span class="metric-value">100g/dia</span>
+                    </div>
+                    <div class="metric-row">
+                        <span class="metric-label">Refeições</span>
+                        <span class="metric-value">5/dia</span>
+                    </div>
+                    <div class="metric-row">
+                        <span class="metric-label">Água</span>
+                        <span class="metric-value">[A TRACKEAR] / 2L</span>
+                    </div>
+                    <!-- Placeholder para gráfico -->
+                    <div class="chart-placeholder">
+                        <canvas id="nutrition-chart"></canvas>
+                        <p class="chart-note">[Gráfico: Calorias/Proteínas semana - Chart.js]</p>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <button class="btn-small" onclick="addMeal()">Registrar Refeição</button>
+                    <button class="btn-small" onclick="viewMenu()">Ver Cardápio</button>
+                </div>
+            </div>
+
+            <!-- Card 3: Finanças -->
+            <div class="card">
+                <div class="card-header">
+                    <h3>💰 Finanças</h3>
+                    <span class="card-status positive">+R$ 1.086,54</span>
+                </div>
+                <div class="card-body">
+                    <div class="metric-row">
+                        <span class="metric-label">Salário Líquido</span>
+                        <span class="metric-value">R$ 1.866,53</span>
+                    </div>
+                    <div class="metric-row">
+                        <span class="metric-label">Gastos Fixos</span>
+                        <span class="metric-value negative">R$ 780,00</span>
+                    </div>
+                    <div class="metric-row">
+                        <span class="metric-label">Sobra Mensal</span>
+                        <span class="metric-value positive">R$ 1.086,54</span>
+                    </div>
+                    <hr class="divider">
+                    <div class="metric-row">
+                        <span class="metric-label">Orçamento Quinzenal</span>
+                        <span class="metric-value">R$ 250,00</span>
+                    </div>
+                    <div class="metric-row">
+                        <span class="metric-label">Gasto Real</span>
+                        <span class="metric-value">R$ 174,40</span>
+                    </div>
+                    <div class="metric-row">
+                        <span class="metric-label">Economia</span>
+                        <span class="metric-value positive">R$ 75,60</span>
+                    </div>
+                    <!-- Placeholder para gráfico pizza -->
+                    <div class="chart-placeholder">
+                        <canvas id="finance-chart"></canvas>
+                        <p class="chart-note">[Gráfico Pizza: Gastos por categoria]</p>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <button class="btn-small" onclick="addExpense()">Adicionar Gasto</button>
+                    <button class="btn-small" onclick="viewExtract()">Ver Extrato</button>
+                </div>
+            </div>
+
+            <!-- Card 4: Sono & Humor -->
+            <div class="card">
+                <div class="card-header">
+                    <h3>😴 Sono & Humor</h3>
+                    <span class="card-status">[A INFERIR]</span>
+                </div>
+                <div class="card-body">
+                    <div class="metric-row">
+                        <span class="metric-label">Horas Sono Ontem</span>
+                        <span class="metric-value" id="sleep-hours">[AUTO-INFERIR timestamps]</span>
+                    </div>
+                    <div class="metric-row">
+                        <span class="metric-label">Qualidade</span>
+                        <span class="metric-value" id="sleep-quality">[0-10 escala]</span>
+                    </div>
+                    <div class="metric-row">
+                        <span class="metric-label">Humor Hoje</span>
+                        <span class="metric-value" id="mood-today">[1-5 escala]</span>
+                    </div>
+                    <div class="metric-row">
+                        <span class="metric-label">Gatilhos Recentes</span>
+                        <span class="metric-value">[lista recente]</span>
+                    </div>
+                    <!-- Placeholder para gráfico linha -->
+                    <div class="chart-placeholder">
+                        <canvas id="sleep-chart"></canvas>
+                        <p class="chart-note">[Gráfico Linha: Horas sono última semana]</p>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <button class="btn-small" onclick="addMood()">Registrar Humor</button>
+                    <button class="btn-small" onclick="addTrigger()">Adicionar Gatilho</button>
+                </div>
+            </div>
+
+            <!-- Card 5: Pendências -->
+            <div class="card">
+                <div class="card-header">
+                    <h3>⚠️ Pendências</h3>
+                    <span class="card-status">5 ativas</span>
+                </div>
+                <div class="card-body">
+                    <ul class="task-list">
+                        <li class="task-item">
+                            <input type="checkbox" id="task1">
+                            <label for="task1">Testar 5 GCam ports Poco X5</label>
+                        </li>
+                        <li class="task-item">
+                            <input type="checkbox" id="task2">
+                            <label for="task2">Capturar 20-30 fotos rosto</label>
+                        </li>
+                        <li class="task-item">
+                            <input type="checkbox" id="task3">
+                            <label for="task3">Implementar email-cleanup.py</label>
+                        </li>
+                        <li class="task-item">
+                            <input type="checkbox" id="task4">
+                            <label for="task4">Preencher Ambiente-Dev/PC/</label>
+                        </li>
+                        <li class="task-item">
+                            <input type="checkbox" id="task5">
+                            <label for="task5">Organizar Google Photos álbuns</label>
+                        </li>
+                    </ul>
+                </div>
+                <div class="card-footer">
+                    <button class="btn-small" onclick="addTask()">Nova Tarefa</button>
+                    <button class="btn-small" onclick="viewAllTasks()">Ver Todas</button>
+                </div>
+            </div>
+
+            <!-- Card 6: Git Activity -->
+            <div class="card">
+                <div class="card-header">
+                    <h3>🚀 Commits Semana</h3>
+                    <span class="card-status">4 commits</span>
+                </div>
+                <div class="card-body">
+                    <div class="metric-row">
+                        <span class="metric-label">Commits</span>
+                        <span class="metric-value" id="commits-count">4</span>
+                    </div>
+                    <div class="metric-row">
+                        <span class="metric-label">Linhas Adicionadas</span>
+                        <span class="metric-value positive">+4538</span>
+                    </div>
+                    <div class="metric-row">
+                        <span class="metric-label">Arquivos Alterados</span>
+                        <span class="metric-value">10</span>
+                    </div>
+                    <div class="metric-row">
+                        <span class="metric-label">Última Mensagem</span>
+                        <span class="metric-value small">feat: ambiente-dev completo...</span>
+                    </div>
+                    <!-- Placeholder para heatmap -->
+                    <div class="chart-placeholder">
+                        <canvas id="commits-chart"></canvas>
+                        <p class="chart-note">[Heatmap: Commits por dia]</p>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <button class="btn-small" onclick="quickCommit()">Commit Rápido</button>
+                    <button class="btn-small" onclick="viewRoadmap()">Ver Roadmap</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Timeline Fotos (Full Width) -->
+        <section class="timeline-section">
+            <div class="card full-width">
+                <div class="card-header">
+                    <h3>📸 Evolução Física - Timeline</h3>
+                    <span class="card-status">[VAZIO] Aguardando primeira captura</span>
+                </div>
+                <div class="card-body">
+                    <div class="timeline-carousel">
+                        <div class="timeline-item placeholder">
+                            <div class="timeline-photo">
+                                <p>📷</p>
+                                <p>Primeira foto</p>
+                            </div>
+                            <div class="timeline-meta">
+                                <span class="timeline-date">[A ADICIONAR]</span>
+                                <span class="timeline-weight">--kg</span>
+                            </div>
+                        </div>
+                        <!-- Mais fotos serão adicionadas dinamicamente -->
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <button class="btn-small" onclick="uploadPhoto()">Upload Nova Foto</button>
+                    <button class="btn-small" onclick="comparePhotos()">Comparar com Anterior</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>🧠 FinanDEV Dashboard | Desenvolvido por <strong>Deivison Santana</strong> (@DeiviTech)</p>
+            <p class="footer-note">Dados 100% locais | Nunca saem do PC | Privacidade total</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="app.js"></script>
+    <!-- Chart.js será adicionado depois -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script> -->
+</body>
+</html>

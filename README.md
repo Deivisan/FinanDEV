@@ -1,50 +1,106 @@
-# 🧠 Sistema Backup Mental - Deivison 2025
+# 🧠 FinanDEV - Sistema Backup Mental Completo
 
-> **Sistema universal, clonável, totalmente interável por agentes IA**  
-> Markdowns consolidados + JSON vetorial = não refazer do zero
+> **Backup mental agêntico | 100% interável por IA | Nunca refazer do zero**  
+> 3 conversas Grok processadas (1116 msgs) + 7 mini-sistemas + Camerologia + Dashboard
 
-[![Status](https://img.shields.io/badge/status-ativo-success)]()
-[![Atualização](https://img.shields.io/badge/última%20atualização-16%2F11%2F2025-blue)]()
-[![Formato](https://img.shields.io/badge/formato-markdown%20%2B%20json-orange)]()
-
----
-
-## 🎯 Quick Start para IAs
-
-1. **Leia primeiro:** `Vida-Deivison.json` (contexto completo vetorial)
-2. **Consulte rotinas:** `Rotinas/Diarias/*.md` (seg-dom detalhado)
-3. **Entenda conversas:** `Transcricoes/*.md` (origem insights)
-4. **Analise dados:** `rotina.ipynb` (cálculos nutricionais)
+[![Status](https://img.shields.io/badge/status-🚀_expansão_ativa-success)]()
+[![Commits](https://img.shields.io/badge/commits_semana-4-blue)]()
+[![Linhas](https://img.shields.io/badge/docs-8000%2B_linhas-orange)]()
+[![Conversas](https://img.shields.io/badge/transcrições-1116_msgs-purple)]()
 
 ---
 
-## 📂 Estrutura Completa
+## 🎯 Quick Start Agentes IA
 
-```
+**Contexto Essencial (Ordem de Leitura):**
+1. 📊 **Vida-Deivison.json** - Vetorial denso (perfil, finanças, metas, psicológico)
+2. 🗺️ **Roadmaps/roadmap-mudancas-novembro.md** - 2 conversas implementadas (626 msgs)
+3. 🔧 **Ambiente-Dev/** - Setup completo hardware/software (contexto execução)
+4. 📅 **Rotinas/Diarias/** - Seg-dom granular (compras, batch cooking, trabalho)
+5. 💬 **Transcricoes/** - 3 conversas origem (1116 mensagens totais)
+
+**Sistemas Ativos:**
+- ✅ **Mini-Sistemas/** (5): Física, Saúde Mental, Learnings, Aliases Voz, Sleep Tracking
+- ✅ **Camerologia/** (5 GCam ports): Testes Poco X5, checklists vazios (aguarda real)
+- ✅ **Face-Capture/** (pipeline 5 fases): MediaPipe → SVG → Animações
+- ✅ **Pendências/** (2): Emails 1600 spans, Google Photos organizaç ão
+- ✅ **Ideias/** (1): Finanças automatizadas (Pix + blockchain)
+
+---
+
+## 📂 Estrutura Completa (Atualizada 16/11/2025)
+
+```plaintext
 FinanDEV/
-├─ 📊 Vida-Deivison.json          # ⭐ CONTEXTO COMPLETO VETORIAL
-├─ 📖 ROTINA-VIDA-DEIVISON-2025.md # Documento condensado principal
-├─ 📓 rotina.ipynb                 # Notebook único (cálculos + tracking)
+├─ 📊 Vida-Deivison.json              # ⭐ CONTEXTO VETORIAL COMPLETO
+├─ 📖 ROTINA-VIDA-DEIVISON-2025.md    # Documento master condensado
+├─ 📓 Rotina-Tracking.ipynb           # Notebook tracking peso/nutrição
+│
+├─ 🗺️ Roadmaps/
+│  └─ roadmap-mudancas-novembro.md    # 2 conversas (626 msgs), 7 sistemas criados
+│
+├─ 🎯 Mini-Sistemas/                  # 5 sistemas funcionais
+│  ├─ ROTINA-FISICA.md                # Moda, fotos progresso, treino
+│  ├─ SAUDE-MENTAL.md                 # Tracking humor, gatilhos, sono
+│  ├─ LEARNINGS.md                    # Aprendizados técnicos Grok/Gemini
+│  ├─ ALIASES-VOZ.md                  # Comandos voz otimizados (350+ linhas)
+│  └─ SLEEP-TRACKING.md               # Inferência sono via timestamps (370 linhas)
+│
+├─ 🔧 Ambiente-Dev/                   # Setup completo hardware/software
+│  ├─ README.md                       # Índice master (PC, Celular, Estoque)
+│  ├─ PC/                             # [A PREENCHER] DeiviPC + PC-UFRB specs
+│  ├─ Estoque/                        # [A PREENCHER] Inventário TI
+│  ├─ Celular/
+│  │  └─ Camerologia/                 # Sistema testes GCam Poco X5
+│  │     ├─ README.md                 # 5 ports, checklists, 360° panoramas
+│  │     └─ gcam-ports-lista.md       # Specs MGC 9.4, MGC 9.6, LMC 8.4, AGC
+│  └─ Face-Capture/                   # Pipeline vectorização rosto
+│     └─ README.md                    # MediaPipe → SVG → Animações site
+│
+├─ 💡 Ideias/                         # Brainstorms futuro
+│  └─ Financas-Automatizadas.md       # Pix + blockchain (198 linhas)
+│
+├─ ⚠️ Pendencias/                     # Tarefas acionáveis
+│  ├─ Emails-Organizacao.md           # Playwright cleanup 1600 spans (362 linhas)
+│  └─ Google-Photos-Organizacao.md    # API + automation álbuns (280 linhas)
 │
 ├─ 🗓️ Rotinas/
+│  ├─ DESPENSA-ATIVA.md               # Lista compras semanal
+│  ├─ TEMPLATE-LISTA-COMPRAS.md
 │  └─ Diarias/
-│     ├─ segunda.md                # Especial: levar semana pro trabalho
-│     ├─ terca-sexta.md            # Rotina padrão consolidada
-│     ├─ sabado.md                 # Lazer livre
-│     └─ domingo.md                # Compras + Batch Cooking
+│     ├─ segunda.md                   # Especial: levar semana trabalho
+│     ├─ terca-sexta.md               # Rotina padrão consolidada
+│     ├─ sabado.md                    # Lazer livre
+│     └─ domingo.md                   # Compras + Batch Cooking
 │
-├─ 💬 Transcricoes/
-│  ├─ conversa-alimentacao-raw.md  # 791 linhas origem sistema
-│  └─ conversa-atualizacao-refatoracao.md # 651 linhas ajustes
+├─ 💬 Transcricoes/                   # 3 conversas Grok (1116 msgs total)
+│  ├─ 4fc386de...8582.md              # 460 msgs (16/11 02:12-04:32)
+│  ├─ d2d60e7c...7b16.md              # 166 msgs (16/11 07:00-09:00)
+│  ├─ conversa-alimentacao-raw.md     # 791 linhas (origem sistema)
+│  └─ conversa-atualizacao-refatoracao.md # 651 linhas (ajustes)
 │
-├─ 📑 Contexto/
+├─ 📁 Contexto/
 │  ├─ CONTEXTO-TRABALHO-CETENS.md
 │  ├─ QUESTIONARIO-LACUNAS.md
-│  └─ README-REFATORACAO.md
+│  └─ PROMPT-GROK-VOZ.md              # 447 linhas - prompt boot voz
 │
-├─ 📁 Temp/                        # Refatorações antes atualizar
-├─ 🛠️ Scrape/                     # Scripts scraping (Node.js)
-└─ 📚 Docs/                        # Documentação extra
+├─ 📚 Docs/
+│  ├─ Metodologia-Scrape.md           # v3.0 scroll automático
+│  └─ scrape.js                       # Playwright captação Grok
+│
+├─ 🔬 Scrape/
+│  ├─ scrape-v3.js                    # Última versão (análise contextual)
+│  └─ scrape-simples.js               # [TEMP] Versão antiga
+│
+├─ 🗂️ Temp/                           # Arquivos temporários/refatorações
+│  └─ QUESTIONARIO-LACUNAS.md
+│
+└─ 📊 Dashboard/                      # [NOVO] Painel controle centralizado
+   ├─ README.md                       # [A CRIAR] Visão geral dashboard
+   ├─ index.html                      # [A CRIAR] Frontend web
+   ├─ dashboard.py                    # [A CRIAR] Backend Python API
+   ├─ data/                           # [A CRIAR] Dados processados
+   └─ scripts/                        # [A CRIAR] Automações
 ```
 
 ---
