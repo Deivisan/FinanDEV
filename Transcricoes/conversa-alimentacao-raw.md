@@ -1,13 +1,98 @@
-===
-DATA CAPTAÇÃO: 01/11/2025 (estimado -
+# 🍽️ Mapeamento Alimentação - Quiz Profundo Rotina & Finanças
 
-DATA CRIAÇÃO ARQUIVO: 02/11/2025 15:30
-FONTE: Grok Doctor Mode (conversa voz transcrita)
-TÓPICO: Alimentação, rotina trabalho, ansiedade oral, finanças pessoais
-PALAVRAS-CHAVE: hambúrguer, café, limão, banana, cuscuz, mortadela, UFRB CETENS
-CONTEXTO: Conversa inicial captação dados perfil Deivison para estruturar rotina vida
-STATUS: ✅ Transcrita completa (791 linhas)
-===
+> **Nome descritivo:**
+
+> **Data estimada:**
+
+> **Duração:**
+
+> **Dispositivo:**
+
+> **Palavras-chave:**
+
+> **Status:** ✅ Transcrita completa (791 linhas RAW)
+
+---
+
+## 📋 Resumo Executivo
+
+**Contexto:** Primeira tentativa de mapeamento completo da rotina de vida de Deivison usando Grok Doctor Mode. Conversa exploratória sobre alimentação, finanças, hábitos, ansiedade oral e metas pessoais.
+
+**Principais Tópicos:**
+
+- 💰 **Finanças Reais:** Salário R$ 1.800 líquido, vale-alimentação R$ 420, vale-transporte R$ 320
+
+- 🏠 **Moradia:** Apartamento próprio (Minha Casa Minha Vida), sem despesas aluguel
+
+- 🍔 **Alimentação:** Padrão impulsivo (doces, bolos, biscoitos), esquece jantar frequentemente
+
+- 🧠 **Perfil Psicológico:** Impulsividade infantil, perfeccionismo, fadiga constante, ansiedade oral
+
+- 🎯 **Meta Física:** 60kg → 70kg (ganho massa muscular para autoestima)
+
+- 🔧 **Trabalho:** Técnico TI terceirizado UFRB, muito tempo livre (poucas chamadas)
+
+**Resultados:**
+
+- Identificada impulsividade como padrão central (comida, jogos, séries, compras)
+
+- Detectada falta de rotina estruturada (horários aleatórios, sono desregulado)
+
+- Validada necessidade de sistema escrito para vencer esquecimento impulsivo
+
+- Estabelecido orçamento R$ 200-250 quinzenal para compras alimentação
+
+**Insights Profundos:**
+
+- Deivison come por "vontade de mastigar", não fome real (ansiedade oral)
+
+- Cuscuz com mortadela = comida de conforto (infância/segurança)
+
+- Perfeccionismo seletivo: "obrigação = funcional, prazer = obra de arte"
+
+- Medo raiz: "desistir da rotina" (não falhar, mas abandonar)
+
+- Produtividade noturna (manhã = zumbi, noite = debug mode)
+
+---
+
+## 📊 Análise Conversacional
+
+**Estatísticas:**
+
+- Total mensagens: ~80 trocas (Deivison 40 / Grok 40)
+
+- Perguntas Grok: ~30 exploratórias (quiz profundo)
+
+- Correções Deivison: 5 ("não é UFRN, é UFRB", "não sou servidor, sou terceirizado")
+
+- Sentimentos detectados: Frustração (rotina atual), esperança (mudança futura)
+
+**Padrões Identificados:**
+
+- Grok inicialmente generalista → Deivison exige precisão técnica
+
+- Deivison desvia perguntas incômodas → Grok insiste ("DIZ o FGTS")
+
+- Tom evolui: confrontacional → colaborativo após Deivison clarificar objetivo
+
+- Metáfora eficaz: "criança impulsiva" vs "adulto que paga conta emocional"
+
+---
+
+## 🎯 Próximos Passos (mencionados na conversa)
+
+- [ ] Criar questionário estruturado (20+ perguntas granulares)
+
+- [ ] Mapear perfil psicológico completo (JSON final)
+
+- [ ] Definir rotina quinzenal compras (domingo a cada 15 dias)
+
+- [ ] Substituir doces por: cenoura crua, nozes, pasta amendoim, iogurte grego
+
+- [ ] Estabelecer janela sono (2h-7h inicialmente, depois ajustar)
+
+---
 
 Criar conta
 Entrar

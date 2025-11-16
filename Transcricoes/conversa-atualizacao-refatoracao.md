@@ -1,13 +1,114 @@
-===
-DATA CAPTAÇÃO: 02/11/2025 10:00 (estimado)
-DATA CRIAÇÃO ARQUIVO: 02/11/2025 16:00
-FONTE: Grok Doctor Mode (modo voz +
+# 🔄 Atualização Rotina - Quiz Completo Bloco a Bloco
 
-TÓPICO: Refatoração rotina, orçamento compras quinzenal, mercados Feira de Santana
-PALAVRAS-CHAVE: Supermercado da Praça Tomba, Pluxee, Assaí, R$ 200-250, lista compras
-CONTEXTO: Conversa atualização após ler QUESTIONARIO-LACUNAS.md e ROTINA-VIDA-DEIVISON-2025.md
-STATUS: ✅ Transcrita completa (651 linhas)
-===
+> **Nome descritivo:**
+
+> **Data estimada:**
+
+> **Duração:**
+
+> **Dispositivo:**
+
+> **Palavras-chave:**
+
+> **Status:** ✅ Transcrita completa (651 linhas)
+
+---
+
+## 📋 Resumo Executivo
+
+**Contexto:** Segunda sessão profunda onde Grok aplica questionário estruturado QUESTIONARIO-LACUNAS.md após internalizar ROTINA-VIDA-DEIVISON-2025.md. Conversa granular bloco a bloco (8 blocos: estado emocional, corpo/saúde, alimentação, rotina, compras, finanças, motivação, personalidade).
+
+**Principais Tópicos:**
+
+- 🧠 **Estado Emocional:** "Bagunça" = palavra-chave rotina atual, frustração por falta estrutura
+
+- 💪 **Meta Física:** 60kg → 70kg (autoimagem atlética, não apenas saúde)
+
+- 🍬 **Ansiedade Oral:** Vício em doces (não fome, vontade mastigar), substitutos: cenoura, nozes
+
+- 😴 **Sono Desregulado:** Sem horário fixo, jetlag interno (dorme 4h tarde, acorda 9h noite)
+
+- 🛒 **Compras Quinzenais:** R$ 200-250 a cada 15 dias, domingo, a pé (Assaí ou Tomba)
+
+- 🔧 **Perfil Trabalho:** "Viciado em trabalho" mas frustra quando sem resultado visível
+
+- 🎯 **Motivação Raiz:** "Perfeccionista" mas rotina atual não atende padrão próprio
+
+**Resultados:**
+
+- Identificados 8 blocos de dados (emocional, físico, nutricional, rotina, logística, financeiro, motivacional, personalidade)
+
+- Validado orçamento R$ 200-250 para 15 dias (arroz, feijão, frango, ovo, cuscuz, mortadela, cenoura, nozes)
+
+- Estabelecida janela sono 2h-7h (5h iniciais, depois ajustar)
+
+- Detectado perfeccionismo seletivo: "obrigação = funcional, prazer = perfeito"
+
+- Confirmado medo central: "não seguir rotina" (desistir, não falhar)
+
+**Insights Profundos:**
+
+- Deivison rende mais à noite ("dia = teste, noite = refatorar")
+
+- Prefere solitude (não isolamento) - "programador de si mesmo"
+
+- Quer rotina com "espaço pra respirar" (slots flexíveis dentro de estrutura fixa)
+
+- Comida conforto: cuscuz com mortadela/ovo (infância/segurança)
+
+- Impulsividade infantil em tudo (comida, jogos, séries, compras tech)
+
+---
+
+## 📊 Análise Conversacional
+
+**Estatísticas:**
+
+- Total mensagens: ~170 trocas estruturadas
+
+- Blocos completados: 8/8 (emocional, corpo, alimentação, rotina, compras, finanças, motivação, personalidade)
+
+- Perguntas Grok: ~50 diretas + reformulações validação
+
+- Correções Deivison: 3 ("não precisa comentar, só perguntas", "siga blocos mas deixe fluir")
+
+**Padrões Identificados:**
+
+- Deivison metódico mas quer fluidez ("não seja pragmático, deixe conversa ir")
+
+- Grok adapta tom: de confrontacional → empático/validador
+
+- Deivison valida: "Entendeu totalmente?" (checagem compreensão mútua)
+
+- Metáforas eficazes: "criança impulsiva vs adulto paga conta", "código base fixo, funções com argumentos variáveis"
+
+**Dados Capturados:**
+
+- Horários: sem rotina atual (2h-3h dormir, acordar variável)
+
+- Energia: fadiga constante, murcho pós-almoço (insulina spike)
+
+- Estresse: 5/10 (médio, aguenta mas sente)
+
+- Exercício: 2x semana flexões em casa (realista)
+
+- Hábito parar: fumar (reduzir, não zerar), doces (eliminar)
+
+---
+
+## 🎯 Próximos Passos (consolidados no final)
+
+- [ ] Markdown rotina final com slots flexíveis (22h-24h variável, 2h dormir fixo)
+
+- [ ] Lista compras quinzenal R$ 200-250 (arroz 5kg, feijão 1kg, frango 2kg, ovos 30, cuscuz, mortadela, cenoura, nozes, pasta amendoim)
+
+- [ ] Substitutos doce: cenoura palito, nozes, iogurte grego + canela
+
+- [ ] Sistema backup escrito (Markdown no celular, acessível sempre)
+
+- [ ] Ajuste futuro: se falhar 1 dia, não desistir - "beleza, amanhã ajusto"
+
+---
 
 Criar conta
 Entrar
