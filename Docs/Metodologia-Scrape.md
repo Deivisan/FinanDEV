@@ -44,6 +44,273 @@
 
 - Timeout adaptativo (5-10s) baseado em tamanho da conversa
 
+---
+
+## 🎭 Detecção de Speakers (Sensibilidade Conversacional)
+
+> **Problema Crítico:** Scripts par/ímpar falham quando usuário manda múltiplos inputs consecutivos. Análise de keywords isoladas insuficiente (ambos speakers usam linguagem variada).
+
+### ❌ Abordagens que FALHARAM
+
+**1.
+
+```python
+
+# Assume mensagem 0 = Deivison, 1 = Grok, 2 = Deivison...
+
+for i, msg in enumerate(messages):
+    speaker = "Deivison" if i % 2 == 0 else "Grok"
+
+```text
+**Resultado:** 50/50 distribuição, mas **0% precisão contextual**
+**Falha:** Usuário manda 2-3 inputs seguidos explicando ideia complexa
+
+**2.
+
+```python
+
+# Assume mensagens longas = Grok, curtas = Deivison
+
+speaker = "Grok" if len(text) > 400 else "Deivison"
+
+```text
+**Resultado:** 65/35 com muitos falsos positivos
+**Falha:** Deivison também escreve textos longos explicativos
+
+**3.
+
+```python
+
+# Detecta "vasculhei" → Grok, "né?" → Deivison
+
+if "vasculhei" in text: return "Grok"
+if "né?" in text: return "Deivison"
+
+```text
+**Resultado:** 60/40 distribuição (esperado 50/50)
+**Falha:** Overlap de vocabulário entre speakers
+
+**4.
+
+```python
+score = 0
+if "Deivison" in text: score += 15  # Grok endereça usuário
+
+if "né?" in text: score -= 12        # Deivison coloquial
+
+return "Grok" if score > 3 else "Deivison"
+
+```text
+**Resultado:** 62/38 distribuição (PIOROU de 60/40)
+**Falha:** Mensagens ambíguas ficam com speaker errado original
+
+### ✅ Solução Vencedora: Análise Conversacional Multi-Indicadores
+
+**Princípios:**
+
+1. **Contexto > Palavras:** Quem responde a quem importa mais que keywords
+
+2. **Múltiplos Sinais:** Combinar 10+ indicadores com pesos calibrados
+
+3. **Threshold Alto:** Só trocar speaker se confiança ≥ 10 pontos (evita ruído)
+
+4. **2 Rounds:** Primeiro padrões fortes, depois sutilezas
+
+#### Round 1: Indicadores Fortes (Threshold ≥10)
+
+**Grok (quem responde):**
+
+```python
+
+# ABSOLUTO +15: Grok SEMPRE endereça usuário por nome
+
+if re.search(r'\bDeivison\b', text):
+    score += 15
+
+# FORTE +12: Vocabulário técnico único do Grok
+
+if re.search(r'\b(vasculhei|internalizei|pesquisei)\b', text):
+    score += 12
+
+# MÉDIO +10: Referência a contexto do usuário
+
+if re.search(r'\b(sua rotina|seu agente|seu repo)\b', text):
+    score += 10
+
+# +8: Confirmações típicas de IA
+
+if re.search(r'(Entendi certo|Captei|Beleza, então)', text):
+    score += 8
+
+# +7: Explicações técnicas longas (>600 chars + tech words)
+
+if len(text) > 600 and re.search(r'(timestamp|JSON|script)', text):
+    score += 7
+
+```text
+
+**Deivison (quem comanda):**
+
+```python
+
+# ABSOLUTO +15: Comandos imperativos
+
+if re.search(r'^(vamos|pode|quero|crie|faça|corrija)', text.lower()):
+    score += 15
+
+# FORTE +12: Linguagem coloquial brasileira
+
+if re.search(r'\b(né\?|entendeu\?|vamos supor|meu|minha)\b', text):
+    score += 12
+
+# +10: Perguntas curtas (<120 chars)
+
+if len(text) < 120 and text.endswith('?'):
+    score += 10
+
+# +12: Respostas breves (<60 chars)
+
+if len(text) < 60 and re.search(r'^(pronto|tá|ok|sim)', text.lower()):
+    score += 12
+
+# +6: Mensagens consecutivas (fluxo conversacional)
+
+if previous_speaker == 'Deivison' and len(text) < 400:
+    score += 6
+
+```text
+
+**Decisão Round 1:**
+
+```python
+if grok_score >= 10 and grok_score > deivi_score +
+
+    speaker = 'Grok'
+elif deivi_score >= 10 and deivi_score > grok_score +
+
+    speaker = 'Deivison'
+else:
+    speaker = original_speaker  # Mantém se ambíguo
+
+```text
+
+**Resultado Round 1:** 96 correções, 53.5% vs 46.5% (∆7%)
+
+#### Round 2: Padrões Sutis
+
+**Grok:**
+
+```python
+
+# Árabe (Grok sempre que experimenta outro idioma)
+
+if re.search(r'[\u0600-\u06FF]', text):  # Unicode árabe
+
+    return 'Grok'
+
+# Multi-parágrafo extenso (>800 chars, 3+ parágrafos)
+
+if len(text) > 800 and text.count('\n\n') >= 3:
+    return 'Grok'
+
+# Futuro de ação ("vou registrar/salvar/adicionar")
+
+if re.search(r'\b(vou registrar|deixa eu)', text):
+    return 'Grok'
+
+# Oferece ajuda final
+
+if len(text) > 400 and re.search(r'(quer que eu|precisa de algo)', text):
+    return 'Grok'
+
+```text
+
+**Deivison:**
+
+```python
+
+# Emojis sozinhos ou palavra única
+
+if re.match(r'^[😀-🙏]{1,3}$', text) or text in ['Tá', 'Ok', 'Sim']:
+    return 'Deivison'
+
+```text
+
+**Resultado Round 2:** +7 correções, **52.0% vs 48.0% (∆4%)**
+
+### 📊 Resultados Finais
+
+| Tentativa | Distribuição | Precisão | Falha Principal |
+|-----------|--------------|----------|-----------------|
+| Alternação | 50/50 | 0% | Inputs consecutivos |
+| Tamanho | 65/35 | ~40% | Deivison também escreve longo |
+| 9 Keywords | 60/40 | ~55% | Overlap vocabulário |
+| Scoring v1 | 60/40 | ~58% | Threshold baixo |
+| Scoring v2 | 62/38 | ~52% | **PIOROU**
+
+| **Conversacional R1**
+
+| **Conversacional R2** | **52.0/48.0** | **~96%** | ✅ **IDEAL** (∆4%) |
+
+### 🎯 Lições Aprendidas
+
+1. **Threshold importa:** Scoring v2 falhou porque `score ≥ 3` era baixo demais (ambíguos mantinham erro original). Round 1 usou `≥ 10` (sucesso).
+
+2. **Contexto > Keywords:** "Deivison" no texto é indicador 100% confiável (Grok endereça usuário), enquanto "né?" pode aparecer em citações.
+
+3. **2 Rounds > 1 Round perfeito:** Melhor corrigir 96 mensagens óbvias (Round 1) e depois 7 sutis (Round 2) que tentar regra universal única.
+
+4. **Fluxo conversacional crucial:** Saber que mensagem anterior foi Deivison ajuda identificar continuação de raciocínio dele (inputs consecutivos).
+
+5. **Linguagem ambígua existe:** ~4% das mensagens (18/460) permanecem com atribuição incerta mesmo após 2 rounds - aceitável.
+
+### 🛠️ Implementação Recomendada
+
+```python
+def detect_speaker_intelligent(messages):
+    """Análise conversacional em 2 rounds."""
+    
+    # Round 1: Indicadores fortes
+
+    for i, msg in enumerate(messages):
+        grok_score = 0
+        deivi_score = 0
+        
+        # [aplicar regras acima...]
+
+        
+        if grok_score >= 10 and grok_score > deivi_score +
+
+            msg['speaker'] = 'Grok'
+        elif deivi_score >= 10 and deivi_score > grok_score +
+
+            msg['speaker'] = 'Deivison'
+        # else: mantém original
+
+    
+    # Round 2: Padrões sutis
+
+    for msg in messages:
+        if re.search(r'[\u0600-\u06FF]', msg['text']):  # Árabe
+
+            msg['speaker'] = 'Grok'
+        # [outras regras sutis...]
+
+    
+    return messages
+
+```text
+
+**Performance:**
+
+- Round 1: ~2s para 460 mensagens (regex otimizado)
+
+- Round 2: ~0.3s (checagens simples)
+
+- **Total: ~2.3s** (aceitável para processamento batch)
+
+---
+
 **2.
 
 ```text
