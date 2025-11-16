@@ -1,14 +1,14 @@
 # 🎤 PROMPT Modo Voz - Boot DevSan Contexto Completo
 
-> **Nome descritivo:**
+> **Nome descritivo:** Compartilhamento prompt master DevSan + perfil psicológico completo
 
-> **Data estimada:**
+> **Data estimada:** 16 de novembro de 2025
 
-> **Duração:**
+> **Duração:** ~45min (166 mensagens)
 
-> **Dispositivo:**
+> **Dispositivo:** Poco X5 - modo voz Grok
 
-> **UUID:**
+> **UUID:** d2d60e7c-97dd-4bfd-822e-9a2c722f7b16
 
 > **Link original:** [Grok Share](https://grok.com/share/c2hhcmQtMg_d2d60e7c-97dd-4bfd-822e-9a2c722f7b16)
 

@@ -1,14 +1,14 @@
 # 🍽️ Mapeamento Alimentação - Quiz Profundo Rotina & Finanças
 
-> **Nome descritivo:**
+> **Nome descritivo:** Quiz nutricional primeira sessão - mapeamento rotina alimentar detalhado
 
-> **Data estimada:**
+> **Data estimada:** Novembro de 2025 (antes 16/11)
 
-> **Duração:**
+> **Duração:** ~2h (791 linhas - conversa extensa)
 
-> **Dispositivo:**
+> **Dispositivo:** Desktop/Poco X5 - captura manual
 
-> **Palavras-chave:**
+> **Palavras-chave:** Nutrição, Rotina Alimentar, 2400 kcal, Ganho Massa, Despensa Ativa
 
 > **Status:** ✅ Transcrita completa (791 linhas RAW)
 

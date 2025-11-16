@@ -1,14 +1,14 @@
 # 🔄 Atualização Rotina - Quiz Completo Bloco a Bloco
 
-> **Nome descritivo:**
+> **Nome descritivo:** Questionário estruturado 8 blocos - refatoração rotinas + contexto completo
 
-> **Data estimada:**
+> **Data estimada:** Novembro de 2025 (antes 16/11)
 
-> **Duração:**
+> **Duração:** ~1.5h (651 linhas)
 
-> **Dispositivo:**
+> **Dispositivo:** Desktop/Poco X5 - captura manual
 
-> **Palavras-chave:**
+> **Palavras-chave:** Rotina Vida, 8 Blocos, Refatoração, Saúde Mental, Trabalho, Lazer
 
 > **Status:** ✅ Transcrita completa (651 linhas)
 
