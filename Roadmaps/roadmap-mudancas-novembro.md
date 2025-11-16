@@ -1,8 +1,11 @@
 # 🗺️ Roadmap de Mudanças - Novembro 2025
 
-> **Baseado em:** Conversa 3h+ com Grok (460 mensagens, 16/11/2025)  
+> **Baseado em:** 2 conversas Grok (460 + 166 mensagens)  
 > **Status:** 🚧 Em Implementação Agêntica  
-> **Última Atualização:** 16/11/2025
+> **Última Atualização:** 16/11/2025 09:00  
+> **Conversas:**
+> - 16/11 02:12-04:32 (460 msgs) - Refatoração FinanDEV + mini-sistemas
+> - 16/11 07:00-09:00 (166 msgs) - Camerologia, Face-Capture, Finanças Auto, Emails
 
 ---
 
@@ -495,6 +498,254 @@ Adicionar seção **Visão de Mundo:**
 
 ---
 
+---
+
+## 🚀 NOVA CAPTAÇÃO - Conversa 16/11 07:00-09:00 (166 mensagens)
+
+### 📁 Ambiente-Dev - Documentação Completa Setup
+
+**Criado:** `Ambiente-Dev/` (estrutura completa para contexto agentes)
+
+**Objetivo:** Centralizar specs hardware/software (PC, Celular, Estoque) para agentes entenderem ambiente real
+
+**Estrutura:**
+```
+Ambiente-Dev/
+├── README.md (índice master)
+├── PC/ (specs pessoal + trabalho - A PREENCHER)
+├── Celular/ (Poco X5 + mods)
+│   └── Camerologia/ (sistema testes GCam)
+├── Estoque/ (inventário TI - A PREENCHER)
+└── Face-Capture/ (pipeline vectorização rosto)
+```
+
+**Integração:** Referenciado em PROMPT-MODO-VOZ.md como contexto obrigatório
+
+---
+
+### 📷 Camerologia - Sistema Testes GCam (Poco X5)
+
+**Arquivos:**
+- `Ambiente-Dev/Celular/Camerologia/README.md` (285 linhas)
+- `Ambiente-Dev/Celular/Camerologia/gcam-ports-lista.md` (92 linhas)
+
+**5 Portes GCam para Testar:**
+1. **MGC 9.4.103_V22** (Sept 2025) - Stable, HDR+ confiável
+2. **MGC 9.6.113_V0.1_beta** (Nov 10) - IA auto-stitching panoramas
+3. **LMC 8.4 R18** (Hasli) - HDR+ ultra para interiores + RAW
+4. **AGC 9.4_V0.3** - XML ativa 3 sensores (48MP+8MP+2MP)
+5. **AGC 9.6.24** - Beta experimental (features Pixel, instável)
+
+**Features Checklist:**
+- HDR+, Night Sight, Panorama 360°, 4K 60fps
+- Ultra-Wide, Macro, RAW export, Stitching quality
+
+**Usos Estratégicos:**
+1. **Face Vectorial:** 20-30 fotos → MediaPipe → SVG
+2. **Setup 360°:** Panoramas ambiente dev (backup visual)
+3. **Treinos 4K:** Vídeos exercícios (análise form)
+
+**Status:** ⚪ Todos checkboxes vazios (aguardando testes reais)
+
+**Automação:** Scripts Termux (auto-capture, debug USB)
+
+**Download:** celsoazevedo.com/files/android/google-camera/dev-bsg
+
+---
+
+### 🎭 Face-Capture - Pipeline Vectorização Rosto
+
+**Arquivo:** `Ambiente-Dev/Face-Capture/README.md` (272 linhas)
+
+**Pipeline 5 Fases:**
+
+**1. Captura (GCam):**
+- 20-30 fotos: frontal, laterais 45°, close-ups bigode
+- RAW, iluminação neutra
+
+**2. Processamento (MediaPipe):**
+- Face Mesh → 468 landmarks 3D (x,y,z coords)
+- Edge detection detalhes finos
+- Output: `foto.jpg.json` com coordenadas normalizadas
+
+**3. Vectorização:**
+- **Online:** Vectorizer.AI, Recraft.ai, Vector Magic
+- **Offline:** Potrace, Autotrace (CLI)
+- Output: SVG escalável infinito
+
+**4. Alternativa 3D Scan:**
+- **Polycam** (melhor - 1-2min scan)
+- **KIRI Engine** (web AR)
+- **Ready Player Me** (avatar instant)
+- Output: OBJ/STL para Blender
+
+**5. Animação:**
+- **Lottie JSON:** Bodymovin export After Effects
+- **CSS+SVG:** Keyframes transform
+- **Stable Diffusion+ControlNet:** Gerar vídeo animado
+
+**Uso Final:** Asset "puxar cortina" no site DeiviTech (rosto Deivison custom)
+
+**Script Exemplo:**
+```python
+import mediapipe as mp
+mp_face_mesh = mp.solutions.face_mesh
+# Processa foto.jpg → landmarks JSON
+```
+
+---
+
+### 💰 Finanças-Automatizadas - Pix + Blockchain (BRAINSTORM)
+
+**Arquivo:** `Ideias/Financas-Automatizadas.md` (198 linhas)
+
+**Conceito:** Centralizar finanças (Pix Automático + USDC stablecoins + audit blockchain)
+
+**Componentes:**
+
+**Pix Automático (Junho 2025):**
+- Autoriza 1x → auto-executa mensalmente
+- Uso: Suplementos (R$300/mês), Google Drive (R$6.99), doações grupo
+
+**Blockchain:**
+- USDC/USDT (Ethereum, Solana, Polygon) - evita volatilidade
+- Bridges: AEON Pay, Zypto (crypto → Pix QR)
+- Audit transparente: blockchain explorer público
+
+**Dashboard FinanDEV:**
+- Frontend: Next.js
+- Backend: Python Flask API
+- Storage: JSON + blockchain
+
+**Stack:**
+- Stripe Pix API (2.9% fee)
+- Volt.io (automação)
+- Web3.py (wallet management)
+
+**Roadmap:**
+1. MVP: Stripe Pix only
+2. Blockchain: USDC wallet integration
+3. Dashboard: Full UI
+4. Audit: Explorer público
+
+**Limitações:**
+- Google Cloud precisa cartão (mesmo free tier)
+- Crypto fees 1-3%
+- Regulação incerta
+
+**Alternativa:** Playwright automation (zero custo, funciona hoje)
+
+---
+
+### 📧 Pendências - Email Cleanup Automation
+
+**Arquivo:** `Pendencias/Emails-Organizacao.md` (362 linhas)
+
+**Problema:** 1600+ emails spam bloqueando respostas vagas emprego
+
+**Solução:** Playwright headless automation (sem API, custo zero)
+
+**3 Scripts Python:**
+
+**1. email-setup.py:**
+- Login manual 1x
+- Auto-clica "Aceitar cookies" (múltiplos seletores)
+- Salva session JSON
+
+**2. email-cleanup.py:**
+- Headless deletion em lotes
+- Random delays (0.5-1.5s anti-block)
+- Progress tracking
+
+**3. email-organize.py:**
+- Filtra "vaga OR currículo"
+- Aplica label "Vagas"
+- Cria subpastas
+
+**Features Anti-Blocking:**
+- Cookie banner detection (Gmail, Outlook, genérico PT/EN)
+- User-agent rotation
+- Session restoration
+- Rate limits: ~100 emails/min Gmail, ~80/min Outlook
+
+**Uso:** Setup 1x → roda headless forever, sem re-login
+
+---
+
+### 📸 Pendências - Google Photos Organização
+
+**Arquivo:** `Pendencias/Google-Photos-Organizacao.md` (280 linhas)
+
+**Objetivo:** Organizar fotos em álbuns (Físico 2025, Ambiente Dev, Treinos)
+
+**2 Abordagens:**
+
+**API (Official):**
+- Google Photos Library API
+- OAuth, metadata access
+- **Requer:** Google Cloud + cartão
+
+**Playwright (Free):**
+- Browser automation
+- **Zero custo**, funciona hoje
+- Mais lento
+
+**Scripts:**
+
+**google-photos-api.py:**
+- Autentica 1x
+- Lista fotos
+- Cria álbuns
+- Adiciona em lote (data/local/faces)
+
+**google-photos-playwright.py:**
+- Salva session
+- Cria álbuns
+- Busca por data
+- Seleciona + adiciona
+
+**Filtros:**
+- **Data:** Últimos 30 dias, 2025-11
+- **GPS:** Proximidade casa (lat/lon)
+- **Faces:** Google auto-detect, filter personId
+
+**Casos Uso:**
+- "Físico 2025": Progresso corpo (quinzenal)
+- "Ambiente Dev": Panoramas 360° setup (anual)
+- "Treinos": Vídeos 4K exercícios
+
+**Futuro:** IA categorização (Vision API), cron Domingos 20:00
+
+---
+
+### 📊 Resumo Nova Captação (166 mensagens)
+
+**7 Sistemas Criados:**
+1. ✅ Ambiente-Dev/ - Contexto setup completo
+2. ✅ Camerologia/ - 5 GCam ports + checklists
+3. ✅ Face-Capture/ - Pipeline 5 fases vectorização
+4. ✅ Finanças-Automatizadas - Pix + blockchain brainstorm
+5. ✅ Emails-Organizacao - Playwright cleanup 1600 spans
+6. ✅ Google-Photos-Organizacao - API + Playwright albums
+7. ✅ gcam-ports-lista.md - Specs detalhadas ports
+
+**Arquivos Criados:** 7 MDs (1539+ linhas)
+
+**Folders Criados:** 8 (Ambiente-Dev/, PC/, Celular/, Camerologia/, Face-Capture/, Estoque/, Ideias/, Pendencias/)
+
+**Status Implementação:**
+- Documentação: ✅ 100%
+- Testes reais: ⚪ Aguardando (GCam, fotos, scripts)
+
+**Prioridades:**
+1. **ALTA:** Testar GCam ports → preencher checklists reais
+2. **ALTA:** Capturar 20-30 fotos rosto → MediaPipe processing
+3. **ALTA:** Implementar email-cleanup.py (testar 10 emails primeiro)
+4. **MÉDIA:** Preencher Ambiente-Dev/PC/ + Estoque/
+5. **BAIXA:** Protótipos (blockchain MVP, animações Lottie)
+
+---
+
 ## 📝 Notas Finais
 
 **Este roadmap é vivo.** Cada conversa com Grok/Gemini pode adicionar:
@@ -504,9 +755,12 @@ Adicionar seção **Visão de Mundo:**
 
 **Agente DevSan (Cloud Sonnet 4.5)** aplicará mudanças autonomamente com base neste mapa.
 
-**Última captura:** 16/11/2025 04:32 (2h20min de conversa)  
-**Próxima revisão:** Após implementação da Prioridade ALTA
+**Capturas:**
+- **1ª conversa:** 16/11/2025 02:12-04:32 (460 msgs, 2h20min)
+- **2ª conversa:** 16/11/2025 07:00-09:00 (166 msgs, 2h)
+
+**Próxima revisão:** Após testes GCam + face capture reais
 
 ---
 
-*Gerado por DevSan a partir de conversa 3h+ | Auto-aprovado | Poder máximo* 🚀
+*Gerado por DevSan a partir de 2 conversas (626 msgs total) | Auto-aprovado | Poder máximo* 🚀
