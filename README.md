@@ -4,7 +4,7 @@
 > Markdowns consolidados + JSON vetorial = não refazer do zero
 
 [![Status](https://img.shields.io/badge/status-ativo-success)]()
-[![Atualização](https://img.shields.io/badge/última%20atualização-02%2F11%2F2025-blue)]()
+[![Atualização](https://img.shields.io/badge/última%20atualização-16%2F11%2F2025-blue)]()
 [![Formato](https://img.shields.io/badge/formato-markdown%20%2B%20json-orange)]()
 
 ---
@@ -175,13 +175,13 @@ git clone [repo]
 
 ## 📝 Última Atualização
 
-**Data:** 02/11/2025  
+**Data:** 16/11/2025  
 **Mudanças:**
-- ✅ Estrutura pastas (Diarias, Contexto, Temp)
-- ✅ Conversão TXT→Markdown transcrições
-- ✅ Rotinas granulares seg-dom
-- ✅ JSON vetorial completo
-- ✅ README interável IAs
+- ✅ **Scrape v3.0** - Captação inteligente conversas Grok (scroll automático, análise contextual, JSON + MD)
+- ✅ **Transcrições Markdown** - Migração completa TXT→MD estruturado (460 msgs, emojis falantes)
+- ✅ **Pasta Backup/** - Arquivos antigos organizados
+- ✅ **Specs atualizadas** - B450M ASUS, 32GB RAM (3 pentes), Cloud Sonnet 4.5
+- ✅ **Metodologia consolidada** - Docs/Metodologia-Scrape.md completo
 
 ---
 

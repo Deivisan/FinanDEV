@@ -1,8 +1,8 @@
 {
   "meta": {
-    "versao": "1.0.0",
+    "versao": "1.1.0",
     "criacao": "2025-11-02T10:00:00Z",
-    "ultima_atualizacao": "2025-11-02T10:00:00Z",
+    "ultima_atualizacao": "2025-11-16T08:50:00Z",
     "descricao": "Sistema backup mental completo - Deivison Santana 2025",
     "formato": "vetorial_denso",
     "objetivo": "Contexto universal clonável, interável por qualquer IA"
@@ -264,6 +264,67 @@
       "fonte": "Grok Doctor Mode",
       "topicos": ["refatoração rotina", "orçamento R$ 200-250", "mercados Feira de Santana"],
       "insights": ["Orçamento quinzenal R$ 200-250 a pé (linha 506)"]
+    },
+    "conversa_scrape_refatoracao": {
+      "arquivo": "Transcricoes/4fc386de-dd1b-47bd-a96c-3dded05d8582.md",
+      "linhas": 2855,
+      "data_captacao": "2025-11-16T08:35:42Z",
+      "fonte": "Grok",
+      "duracao": "3h+",
+      "total_mensagens": 460,
+      "topicos": ["scraping metodologia", "backup mental", "prompts modo voz", "mini-sistemas", "aliases"],
+      "insights": [
+        "Scrape v3.0 completo (auto-scroll, análise contextual)",
+        "Migração TXT → Markdown estruturado",
+        "Specs PC corrigidas (B450M ASUS, 3 pentes RAM)",
+        "Cloud Sonnet 4.5 confirmado",
+        "Sistema aliases futuro (modo-refator, repo-X, etc)"
+      ]
+    }
+  },
+  "setup_tecnico": {
+    "pc_pessoal": {
+      "placa_mae": "ASUS B450M Game",
+      "cpu": "AMD Ryzen 7 5700G",
+      "ram": {
+        "total_gb": 32,
+        "configuracao": "3 pentes (8GB + 8GB + 16GB)",
+        "tipo": "DDR4",
+        "velocidade": "3200MHz",
+        "modo": "dual-channel"
+      },
+      "storage": "1TB SSD NVMe",
+      "gpu": "AMD Vega 8 (integrada)",
+      "os": "Arch Linux ZEN / Windows 11 dual-boot"
+    },
+    "pc_trabalho": {
+      "modelo": "PC-UFRB",
+      "cpu": "Intel Core i5-3570 (4 cores, 3.40GHz)",
+      "ram": {
+        "total_gb": 8,
+        "tipo": "DDR3",
+        "velocidade": "1600MHz"
+      },
+      "storage": "240GB SSD SATA",
+      "gpu": "Intel HD Graphics 2500 (integrada)",
+      "os": "Windows 11 Pro (25H2)",
+      "rede": {
+        "ip": "172.17.14.166",
+        "tipo": "Ethernet",
+        "velocidade": "1Gbps"
+      }
+    },
+    "celular": {
+      "modelo": "Poco X5",
+      "rom": "Infinity-X (Android customizado)",
+      "kernel": "5.4 otimizado"
+    },
+    "agentes_ia": {
+      "github_copilot": "SWE Preview (VS Code)",
+      "grok": "voz/texto (conversas extensas)",
+      "gemini_cli": "scripts rápidos",
+      "qwen_code": "agente local Node.js",
+      "modelo_principal": "Cloud Sonnet 4.5"
     }
   },
   "sistema_backup_mental": {

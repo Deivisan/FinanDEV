@@ -1,0 +1,24 @@
+{
+  "name": "finandev",
+  "version": "1.0.0",
+  "description": "> **Sistema universal, clonável, totalmente interável por agentes IA**   > Markdowns consolidados + JSON vetorial = não refazer do zero",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Deivisan/FinanDEV.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Deivisan/FinanDEV/issues"
+  },
+  "homepage": "https://github.com/Deivisan/FinanDEV#readme",
+  "dependencies": {
+    "playwright": "^1.56.1"
+  }
+}
