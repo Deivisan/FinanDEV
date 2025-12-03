@@ -304,7 +304,7 @@ correlacao = sono['qualidade'].corr(humor)
 - Contexto PC + Mobile unificado
 - Protocolos CO5P + VNE documentados
 
-**Status:** ✅ FEITO (transcricao-prompt-modo-voz.md capturou)
+**Status:** ✅ FEITO (transcricao-prompt-modo-voz.md capturou) - Usado regularmente nas conversas Grok
 
 ---
 
@@ -353,6 +353,8 @@ correlacao = sono['qualidade'].corr(humor)
 
 **Prioridade:** 🟡 MÉDIA (longo prazo, impacto social)
 
+**Atualização 02/DEZ:** Com +33 repositórios novos em 16 dias, você já está semi-open source na prática. Falta documentar e organizar.
+
 ---
 
 ## 📊 Priorização Global (Framework RICE)
@@ -377,20 +379,23 @@ correlacao = sono['qualidade'].corr(humor)
 
 ## ✅ Próximos Passos Concretos
 
-**Esta semana (16-23 Nov):**
-- [ ] Criar `APRENDIZADOS-SEMANAIS.md` template
-- [ ] Script Python básico extração insights
-- [ ] YAML aliases (3 exemplos: modo-refator, repo-X, captura-completa)
+**Esta semana (02-08 DEZ):**
+- [ ] **DIA 5 (sexta):** Receber salário, pagar contas, abrir Mini-Sistema Final-Dezembro
+- [ ] **DIA 6 (sábado):** Primeiro script Playwright com storage_state salvo (mesmo com erro)
+- [ ] Tirar primeira foto tracking visual (baseline corpo)
+- [ ] Ativar Sleep as Android compartilhamento dados
 
-**Próximo mês (Dez 2025):**
-- [ ] BackBrowser webhook Grok
-- [ ] Detecção horário integração Rotinas/
-- [ ] Primeira foto tracking visual (baseline)
+**Até dia 15 DEZ (segunda):**
+- [ ] Estar de boa: contas pagas, compras feitas, roupas novas
+- [ ] 3+ aplicações via Playwright funcionando
+- [ ] Canal anônimo: gerar modelo 3D no Luma/Flux
 
 **2026 (longo prazo):**
+- [ ] Sair CETENS até março/2026 (salário-alvo 2k líquido)
 - [ ] Finanças API MVP
 - [ ] Sensor-Rotina Termux setup
 - [ ] Open source FinanDEV comunitário
+- [ ] DevSan Open School (ajudar jovens pobres com código)
 
 ---
 
@@ -428,5 +433,31 @@ correlacao = sono['qualidade'].corr(humor)
 
 ---
 
-**Última atualização:** 16/11/2025  
-**Próxima revisão:** Semanal (junto com aprendizados semanais)
+**Última atualização:** 02/DEZ/2025  
+**Próxima revisão:** Dia 5 (recebe salário) ou Dia 15 (deadline final dezembro)
+
+---
+
+## 🔥 ATUALIZAÇÕES 02/DEZ/2025 (Conversa Grok 2h+)
+
+### Status Geral
+- **Peso:** 60kg (mais magro, dieta furada)
+- **Sono:** Completamente desregulado (~00:00)
+- **Ansiedade:** 9/10
+- **Orgulho:** +33 repositórios criados em 16 dias
+- **CETENS:** Frustrado, saída planejada março/2026
+
+### Novas Pendências Críticas
+1. **Tracking Visual** → Primeira foto nunca tirada
+2. **Mini-Sistema Sono** → Sleep as Android instalado, dados não compartilhados
+3. **Finanças Dezembro** → Não existe arquivo, dia 5 cai salário
+4. **New-Job Automations** → storage_state.json nunca salvo, 10 aplicações manuais
+5. **Aprendizados Semanais** → Template existe, zero entradas
+
+### Novas Ideias Capturadas
+- **DriveDroid** → Instalado Poco X5, ISO Windows 11 pendente
+- **Canal Anônimo** → Avatar 3D + voz IA (500 fotos, zero modelo gerado)
+- **DevSan Open School** → Ajudar jovens pobres com código (planejado)
+- **Mini-Sistema Final-Dezembro** → Controle finanças fim de ano
+
+---

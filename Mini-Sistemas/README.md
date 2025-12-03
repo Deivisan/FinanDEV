@@ -1,8 +1,24 @@
 # 🛠️ Mini-Sistemas FinanDEV - Ideias & Implementações
 
 > **Propósito:** Módulos autônomos que automatizam aspectos específicos do backup mental  
-> **Status:** Parcialmente implementados (3/11 ativos)  
-> **Fonte:** Conversas transcritas 16/11/2025 (finandev-backup-mental + prompt-modo-voz)
+> **Status:** Parcialmente implementados (3/11 ativos + 2 novos planejados)  
+> **Fonte:** Conversas transcritas 16/11/2025 + 02/12/2025 (Grok)
+> **Última atualização:** 02/DEZ/2025
+
+---
+
+## 🔥 ATUALIZAÇÃO 02/DEZ/2025
+
+### Novos Mini-Sistemas Identificados
+1. **Mini-Sistema Final-Dezembro** → Controle finanças fim de ano (dia 5 salário → dia 15 deadline)
+2. **Canal Anônimo** → Avatar 3D + voz IA (técnico sem rosto)
+3. **DriveDroid Setup** → USB bootável via celular (formatação PCs)
+
+### Status Atual
+- **Ansiedade:** 9/10
+- **Sono:** Completamente desregulado
+- **CETENS:** Saída planejada março/2026
+- **Repositórios criados:** +33 em 16 dias
 
 ---
 
@@ -452,11 +468,11 @@ append_to_md("APRENDIZADOS-SEMANAIS.md", insight)
 
 ## 🚀 Próximos Passos
 
-1. Criar `APRENDIZADOS-SEMANAIS.md` template
-2. Implementar `weekly_learnings.py` básico
-3. Testar sistema aliases (3 exemplos)
-4. Documentar BackBrowser perguntas padrão
-5. Setup inicial Tracking Visual (primeira foto)
+1. **DIA 5 (sexta):** Abrir Mini-Sistema Final-Dezembro (salário → contas → sobra)
+2. **DIA 6 (sábado):** storage_state.json no Indeed ou GeekHunter
+3. Ativar Sleep as Android compartilhamento dados
+4. Primeira foto tracking visual
+5. Testar sistema aliases (3 exemplos)
 
-**Última atualização:** 16/11/2025  
-**Fonte:** Análise conversas + pesquisa web 2025
+**Última atualização:** 02/DEZ/2025  
+**Fonte:** Análise conversas + pesquisa web 2025 + Conversa Grok 02/12 (2h+)

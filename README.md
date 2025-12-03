@@ -2,12 +2,13 @@
 
 > **Backup mental agêntico | 100% interável por IA | Nunca refazer do zero**
 
-> 3 conversas Grok processadas (1116 msgs) + 7 mini-sistemas + Camerologia + Dashboard
+> 4 conversas Grok processadas (1200+ msgs) + 7 mini-sistemas + Camerologia + Dashboard + NewJob
 
 [![Status](https://img.shields.io/badge/status-🚀_expansão_ativa-success)](https://github.com/Deivisan/FinanDEV)
 [![Commits](https://img.shields.io/badge/commits_semana-4-blue)](https://github.com/Deivisan/FinanDEV/commits)
-[![Linhas](https://img.shields.io/badge/docs-8000%2B_linhas-orange)](https://github.com/Deivisan/FinanDEV)
-[![Conversações](https://img.shields.io/badge/transcrições-1116_msgs-purple)](./Transcricoes)
+[![Linhas](https://img.shields.io/badge/docs-10000%2B_linhas-orange)](https://github.com/Deivisan/FinanDEV)
+[![Conversações](https://img.shields.io/badge/transcrições-1200%2B_msgs-purple)](./Transcricoes)
+[![Repos](https://img.shields.io/badge/repos_criados-33%2B-green)](https://github.com/Deivisan)
 
 ---
 
@@ -336,18 +337,18 @@ git clone [repo]
 
 ## 📝 Última Atualização
 
-**Data:** 16/11/2025  
+**Data:** 02/12/2025  
 **Mudanças:**
 
-- ✅ **Scrape v3.0** - Captação inteligente conversas Grok (scroll automático, análise contextual, JSON + MD)
+- ✅ **Conversa Grok 2h+** - Atualização geral após 16 dias (transcricao-atualizacao-geral-02dez2025.md)
+- ✅ **Vida-Deivison.json v1.2.0** - Novos campos: sono, newjob, ansiedade 9/10, saída CETENS março/2026
+- ✅ **+33 repositórios** - Criados nos últimos 16 dias (backup eterno)
+- ✅ **NewJob integrado** - 10 aplicações manuais LinkedIn, Playwright pendente storage_state
+- ✅ **Metas Dezembro** - Dia 5 salário, Dia 6 Playwright, Dia 15 deadline
+- ✅ **Chefe CETENS** - Tiago (nome capturado)
+- ✅ **Canal Anônimo** - Avatar 3D + voz IA planejado (500 fotos, zero modelo)
 
-- ✅ **Transcrições Markdown** - Migração completa TXT→MD estruturado (460 msgs, emojis falantes)
-
-- ✅ **Pasta Backup/** - Arquivos antigos organizados
-
-- ✅ **Specs atualizadas** - B450M ASUS, 32GB RAM (3 pentes), Cloud Sonnet 4.5
-
-- ✅ **Metodologia consolidada** - Docs/Metodologia-Scrape.md completo
+**Próxima sessão:** Dia 5 (sexta) após receber salário
 
 ---
 

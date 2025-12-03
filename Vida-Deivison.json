@@ -1,8 +1,8 @@
 {
   "meta": {
-    "versao": "1.1.0",
+    "versao": "1.2.0",
     "criacao": "2025-11-02T10:00:00Z",
-    "ultima_atualizacao": "2025-11-16T08:50:00Z",
+    "ultima_atualizacao": "2025-12-02T23:00:00Z",
     "descricao": "Sistema backup mental completo - Deivison Santana 2025",
     "formato": "vetorial_denso",
     "objetivo": "Contexto universal clonável, interável por qualquer IA"
@@ -20,10 +20,15 @@
     "trabalho": {
       "cargo": "Técnico em TI",
       "local": "UFRB CETENS",
+      "chefe": "Tiago",
       "horario": "07:20-18:00",
       "dias": ["segunda", "terca", "quarta", "quinta", "sexta"],
       "transporte": "ônibus_06h00",
-      "vale_alimentacao": 420.0
+      "vale_alimentacao": 420.0,
+      "sentimento": "Frustrado - falta de respeito por profissional TI, alunos provocam",
+      "saida_prazo": "março/2026",
+      "salario_alvo_novo_emprego": 2000,
+      "preferencia_setor": "privado_remoto"
     },
     "psicologico": {
       "perfil": "impulsividade_infantil_extrema",
@@ -31,11 +36,30 @@
       "necessidade": "Sistema escrito = hack vida",
       "personalidade": "Perfeccionista. Se não tô gostando, mudo.",
       "medo_principal": "Esquecer seguir rotina, impulsos vencerem",
+      "ansiedade_atual": 9,
+      "vicio_atual": "IA - usar agentes para automatizar tudo, mas não agir",
+      "orgulho_recente": "+33 repositórios criados nesses 16 dias = backup eterno da existência",
       "esperanca_6meses": {
         "fisico": "Mais forte 70kg, sem dor costas, sem fadiga",
         "mental": "Mais inteligente, adaptado trabalho",
         "filosofico": "Juventude 25-30 não jogada fora"
       }
+    },
+    "sono": {
+      "status": "completamente_desregulado",
+      "horario_dormiu_ultimos_dias": "~00:00",
+      "snooze_cronico": true,
+      "dias_levantou_5h_primeira": 0,
+      "atrasos_trabalho_semana": 5,
+      "sleep_android": "instalado_nao_compartilha_dados"
+    },
+    "newjob": {
+      "aplicacoes_linkedin": 10,
+      "aplicacoes_automatizadas": 0,
+      "storage_state_salvo": false,
+      "problema_playwright": "sessão vazia - sem cookies/context",
+      "sites_foco": ["LinkedIn", "Indeed", "GeekHunter", "Glassdoor"],
+      "tipo_vaga": "técnico suporte, infraestrutura, home office, privado"
     }
   },
   "financas": {
@@ -342,5 +366,57 @@
     "palavras_literais": ["banana", "hambúrguer", "limão", "batata doce", "asinha", "coxa frango", "maçã"],
     "palavras_nao": ["pasta amendoim", "nozes", "luxos", "complicações"],
     "filosofia_alimentacao": "Simplicidade. Calorias certas. Proteína suficiente. Sem neura."
+  },
+  "atualizacao_02dez2025": {
+    "dados_capturados": {
+      "peso": "60kg (mais magro, dieta furada)",
+      "sono_ultimos_dias": "~00:00 (meia-noite)",
+      "alimentacao": "besteira frequente, zero dias planejados",
+      "atrasos_cetens": "todos os dias da semana (~1h cada)",
+      "comunicou_chefe": false
+    },
+    "projetos_ativos": {
+      "drive_droid": "instalado no Poco X5, ISO Windows 11 pendente",
+      "newjob_automations": "10 aplicações manuais LinkedIn, zero automatizadas",
+      "canal_anonimo": {
+        "conceito": "avatar 3D + voz IA, sem aparecer rosto",
+        "fotos_modelo": "500 na pasta, zero modelo gerado Luma/Flux",
+        "voz_clonada": false,
+        "primeiro_video": "Como montar notebook com peças de R$50"
+      },
+      "repositorios_criados_16dias": 33
+    },
+    "filantropia": {
+      "publico_alvo": [
+        "jovem pobre que quer aprender código",
+        "pessoa que constrói algo em mim",
+        "família próxima"
+      ],
+      "projeto_planejado": "DevSan Open School",
+      "alguem_pediu_ajuda_30dias": false
+    },
+    "inclinacoes_firmadas": {
+      "setor_publico": "EVITAR TOTALMENTE - experiência negativa hospital + CETENS",
+      "preferencia_emprego": "privado, remoto, TI/suporte/infra"
+    },
+    "metas_dezembro2025": {
+      "dia_5": "recebe salário, paga contas",
+      "dia_6": "primeiro script Playwright com storage_state salvo",
+      "dia_15": "segunda-feira - deadline estar de boa, contas pagas, compras feitas",
+      "mini_sistema_final_dezembro": "planejado - finanças + compras + roupa"
+    },
+    "desejos_priorizados": [
+      "Sair do CETENS até março/2026 (salário-alvo 2k líquido)",
+      "Dia 6 rodar New-Job com storage_state salvo (mesmo com erro)",
+      "Mini-Sistema Final-Dezembro dia 5/6",
+      "Avatar 3D + voz IA falando por ele",
+      "Tracking visual + sono regulado"
+    ],
+    "frases_que_movem": [
+      "Se não tá escrito, esqueço",
+      "Backup eterno",
+      "Juventude 25-30 não pode ser jogada fora",
+      "Criar repositórios é backup eterno da minha existência"
+    ]
   }
 }
