@@ -1,111 +1,99 @@
-# 🏠 Sistema de Convivência - Deivison & Daniel
+# 🏠 Sistema de Convivência - Deivison + Daniel
 
 > **Criado:** 08/12/2025
-> **Moradores:** Deivison Santana (25) + Daniel (sobrinho, 25)
-> **Tempo Juntos:** ~2 semanas (desde ~24/11/2025)
-> **Status Daniel:** Desempregado
-> **Objetivo:** Convivência harmoniosa, divisão justa, rotinas claras
+> **Moradores:** Deivison (25) + Daniel (sobrinho, 25)
+> **Desde:** ~24/11/2025
 
 ---
 
-## 💰 DIVISÃO DE DESPESAS
+## 📊 Situação Atual
 
-### Enquanto Daniel Desempregado (ATUAL)
-
-| Despesa | Deivison | Daniel | Total |
-|---------|----------|--------|-------|
-| Água | R$ 150 | R$ 0 | R$ 150 |
-| Luz | R$ 150 | R$ 0 | R$ 150 |
-| Internet | R$ 79,99 | R$ 0 | R$ 79,99 |
-| Alimentação | R$ 300 | Ajuda cozinhando | R$ 300 |
-| **TOTAL** | **R$ 679,99** | **Tarefas domésticas** | **R$ 679,99** |
-
-### Quando Daniel Trabalhar (FUTURO)
-
-| Despesa | Deivison | Daniel | Total |
-|---------|----------|--------|-------|
-| Água | R$ 75 | R$ 75 | R$ 150 |
-| Luz | R$ 75 | R$ 75 | R$ 150 |
-| Internet | R$ 40 | R$ 40 | R$ 79,99 |
-| Alimentação | 50% | 50% | R$ 300 |
-| **TOTAL** | **R$ 340** | **R$ 340** | **R$ 679,99** |
+| Aspecto | Status |
+|---------|--------|
+| **Divisão despesas** | Deivison 100% |
+| **Divisão futura** | 50/50 quando Daniel trabalhar |
+| **Status Daniel** | Desempregado (~2 semanas) |
+| **Convivência** | Tranquila |
 
 ---
 
-## 🧹 TAREFAS DOMÉSTICAS (DIVISÃO SEMANAL)
+## 📅 Escala de Tarefas Semanais
 
-### Segunda-feira
-- **Deivison:** Levar semana pro trabalho (hambúrgueres, pães, bananas)
-- **Daniel:** Lavar louça janta domingo + organizar cozinha
-
-### Terça-feira
-- **Deivison:** Trabalho 8h-18h
-- **Daniel:** Varrer casa completa + limpar banheiro
-
-### Quarta-feira
-- **Deivison:** Trabalho 8h-18h
-- **Daniel:** Lavar roupas (máquina) + estender
-
-### Quinta-feira
-- **Deivison:** Trabalho 8h-18h
-- **Daniel:** Passar roupas + organizar guarda-roupa
-
-### Sexta-feira
-- **Deivison:** Trabalho 8h-18h
-- **Daniel:** Limpar cozinha completa (fogão, geladeira, micro)
-
-### Sábado
-- **Ambos:** Lazer livre
-- **Daniel:** Trocar lençóis + toalhas
-
-### Domingo
-- **Deivison:** Compras 8h (Daniel pode acompanhar)
-- **Daniel:** Batch cooking 10h-11h (cozinhar semana)
-- **Ambos:** Planejar semana seguinte
+| Dia | Tarefa Daniel | Tarefa Deivison |
+|-----|---------------|-----------------|
+| **Segunda** | Lavar louça + organizar cozinha | Trabalho CETENS |
+| **Terça** | Varrer casa + limpar banheiro | Trabalho CETENS |
+| **Quarta** | Lavar roupas | Trabalho CETENS |
+| **Quinta** | Passar roupas | Trabalho CETENS |
+| **Sexta** | Limpar cozinha completa | Trabalho CETENS |
+| **Sábado** | Trocar lençóis | Lazer/Estudos |
+| **Domingo** | Batch cooking juntos | Compras + Batch cooking |
 
 ---
 
-## 📋 REGRAS DE CONVIVÊNCIA
+## 💰 Divisão Financeira
 
-### Respeito Mútuo
-- ✅ Não mexer em coisas pessoais sem pedir
-- ✅ Avisar se vai chegar tarde (após 23h)
-- ✅ Respeitar horários de sono (silêncio após 23h)
-- ✅ Privacidade: bater na porta antes de entrar
+### Atual (Daniel desempregado)
+- **Água:** Deivison 100%
+- **Luz:** Deivison 100%
+- **Internet:** Deivison 100%
+- **Alimentação:** Deivison 100%
 
-### Limpeza e Organização
-- ✅ Lavar louça logo após usar
-- ✅ Não deixar comida fora da geladeira
-- ✅ Banheiro limpo após uso
-- ✅ Roupas sujas no cesto, não no chão
-- ✅ Lixo: levar pra fora quando encher
-
-### Alimentação
-- ✅ Avisar se vai comer fora (não desperdiçar comida)
-- ✅ Respeitar porções planejadas
-- ✅ Ajudar no batch cooking domingo
-- ✅ Não comer a comida da semana do outro sem avisar
-
-### Comunicação
-- ✅ Problemas? Conversar direto, sem rodeios
-- ✅ Sugestões? Anotar neste MD
-- ✅ Mudanças? Atualizar rotina juntos
-- ✅ Reunião semanal: Domingo 20h (planejar semana)
+### Futura (Daniel empregado)
+- **Água:** 50/50
+- **Luz:** 50/50
+- **Internet:** 50/50
+- **Alimentação:** Cada um compra o seu
 
 ---
 
-## 🎯 METAS COMPARTILHADAS
+## 📝 Regras de Convivência
 
-### Curto Prazo (Dezembro 2025)
-- [ ] Daniel conseguir emprego
-- [ ] Estabelecer rotina sólida
-- [ ] Dividir despesas quando Daniel trabalhar
+### Espaços Comuns
+1. Cozinha limpa após uso
+2. Banheiro: cada um limpa o que suja
+3. Sala: manter organizada
+4. Lixo: quem encher, desce
 
-### Médio Prazo (2026)
-- [ ] Ambos com rotinas independentes mas harmoniosas
-- [ ] Sistema de convivência consolidado
-- [ ] Possível mudança (se necessário)
+### Horários
+1. Silêncio após 23h (Deivison acorda 05h)
+2. Banho: não demorar (economia água)
+3. Cozinha livre: avisar se vai usar muito tempo
+
+### Visitas
+1. Avisar com antecedência
+2. Não pernoitar sem combinar
+3. Responsabilidade de quem convidou
 
 ---
 
-*Atualizado: 08/DEZ/2025 | Revisão: Semanal*
+## 🎯 Metas para Daniel
+
+### Curto Prazo (Dezembro/2025)
+- [ ] Procurar emprego ativamente
+- [ ] Cumprir escala de tarefas
+- [ ] Manter convivência tranquila
+
+### Médio Prazo (Janeiro-Março/2026)
+- [ ] Conseguir emprego
+- [ ] Começar dividir despesas
+- [ ] Definir se fica ou sai
+
+---
+
+## 📈 Log de Convivência
+
+### Semana 09-15/DEZ/2025
+| Dia | Tarefa | Feita? | Obs |
+|-----|--------|--------|-----|
+| Seg | Louça + cozinha | - | - |
+| Ter | Varrer + banheiro | - | - |
+| Qua | Lavar roupas | - | - |
+| Qui | Passar roupas | - | - |
+| Sex | Cozinha completa | - | - |
+| Sáb | Trocar lençóis | - | - |
+| Dom | Batch cooking | - | - |
+
+---
+
+*Última atualização: 09/12/2025*

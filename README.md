@@ -28,15 +28,15 @@
 
 **Sistemas Ativos:**
 
-- ✅ **Mini-Sistemas/** (5): Física, Saúde Mental, Learnings, Aliases Voz, Sleep Tracking
+- ✅ **Mini-Sistemas/Ativos/** (2): Saúde Mental + Sleep Tracking (desde 08/12)
+
+- ✅ **Moradia Compartilhada**: Daniel (sobrinho, 25) desde 24/11
 
 - ✅ **Camerologia/** (5 GCam ports): Testes Poco X5, checklists vazios (aguarda real)
 
 - ✅ **Face-Capture/** (pipeline 5 fases): MediaPipe → SVG → Animações
 
-- ✅ **Pendências/** (2): Emails 1600 spans, Google Photos organizaç ão
-
-- ✅ **Ideias/** (1): Finanças automatizadas (Pix + blockchain)
+- ✅ **Pendências/** (12): Organizadas por prioridade (09/12)
 
 ---
 
@@ -337,18 +337,22 @@ git clone [repo]
 
 ## 📝 Última Atualização
 
-**Data:** 08/12/2025 (domingo)  
+**Data:** 09/12/2025 (segunda - 02:30)  
 **Mudanças:**
 
-- ✅ **Vida-Deivison.json v1.3.0** - Dados 08/12: salário recebido, sobra R$ 1.129, Daniel morando junto
-- ✅ **Sistema Convivência Daniel** - Rotina compartilhada, divisão tarefas, regras claras
-- ✅ **Lista Compras Atualizada** - R$ 300 quinzena, 2 pessoas, mercado Assaí/Tomba
-- ✅ **PROMPT-MODO-VOZ v2.0** - Contexto completo atualizado, Daniel incluído
-- ✅ **Roadmap Timeline HTML5** - Visualização cronológica disruptiva completa
-- ✅ **Pendências Críticas** - Pagar água, fazer compras, tirar fotos tracking
-- ✅ **Tiago CETENS** - Percebeu incômodo, não conversado ainda
+- ✅ **Vida-Deivison.json v1.4.0** - Blocos novos: Daniel, Saúde Mental, Bicicleta, Shein, Sleep Tracking
+- ✅ **Mini-Sistemas Reorganizados** - Estrutura Ativos/ vs Inativos/
+- ✅ **Deivison.md Atualizado** - Seção Daniel (sobrinho morando junto desde 24/11)
+- ✅ **Convivência Daniel** - Sistema de tarefas semanais criado (Rotinas/CONVIVENCIA-DANIEL.md)
+- ✅ **Script Timestamps** - scripts/update-timestamps.js para automação
+- ✅ **Análise Cronológica** - 6 transcrições analisadas, gaps identificados
+- ✅ **Conta Água Paga** - R$ 153,13 (vencimento 01/09), sobra R$ 975,87
+- ✅ **Conversa Voz Grok Capturada** - 42 mensagens transcritas (08/12 noite)
+- 🆕 **Eventos-FSA** - Novo repositório revelado (deploy pendente)
+- 🆕 **Compras Shein** - R$ 600 até 10/12 (camisas sociais + calças esporte fina)
+- 🆕 **Bicicleta** - Consertar para voltar a ser ciclista
 
-**Próxima ação:** Pagar conta água + fazer compras hoje (domingo)
+**Próxima ação:** Comprar Shein até 10/12, marcar terapia SUS até 20/12
 
 ---
 

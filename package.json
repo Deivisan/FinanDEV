@@ -19,6 +19,6 @@
   },
   "homepage": "https://github.com/Deivisan/FinanDEV#readme",
   "dependencies": {
-    "playwright": "^1.56.1"
+    "playwright": "^1.57.0"
   }
 }

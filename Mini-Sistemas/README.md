@@ -1,24 +1,49 @@
 # 🛠️ Mini-Sistemas FinanDEV - Ideias & Implementações
 
 > **Propósito:** Módulos autônomos que automatizam aspectos específicos do backup mental  
-> **Status:** Parcialmente implementados (3/11 ativos + 2 novos planejados)  
-> **Fonte:** Conversas transcritas 16/11/2025 + 02/12/2025 (Grok)
-> **Última atualização:** 02/DEZ/2025
+> **Status:** 2 ATIVOS + 9 planejados  
+> **Fonte:** Conversas transcritas 16/11/2025 + 02/12/2025 + 08/12/2025 (Grok)
+> **Última atualização:** 09/DEZ/2025
 
 ---
 
-## 🔥 ATUALIZAÇÃO 02/DEZ/2025
+## 📂 ESTRUTURA REORGANIZADA (09/DEZ/2025)
 
-### Novos Mini-Sistemas Identificados
-1. **Mini-Sistema Final-Dezembro** → Controle finanças fim de ano (dia 5 salário → dia 15 deadline)
-2. **Canal Anônimo** → Avatar 3D + voz IA (técnico sem rosto)
-3. **DriveDroid Setup** → USB bootável via celular (formatação PCs)
+```
+Mini-Sistemas/
+├── Ativos/                    # ✅ Sistemas em uso ativo
+│   ├── README.md
+│   ├── SAUDE-MENTAL-ATIVO.md  # Desde 08/12
+│   └── SLEEP-TRACKING-ATIVO.md # Desde 08/12
+├── Inativos/                  # 🔴 Templates não ativos
+│   └── README.md
+└── [arquivos legado]          # Templates originais
+```
+
+## 🟢 SISTEMAS ATIVOS (2)
+
+| Sistema | Desde | Check-in | Arquivo |
+|---------|-------|----------|---------|
+| **Saúde Mental** | 08/12/2025 | Domingo 20h | [Ativos/SAUDE-MENTAL-ATIVO.md](Ativos/SAUDE-MENTAL-ATIVO.md) |
+| **Sleep Tracking** | 08/12/2025 | Diário manhã | [Ativos/SLEEP-TRACKING-ATIVO.md](Ativos/SLEEP-TRACKING-ATIVO.md) |
+
+### Metas Ativas
+- **Saúde Mental:** Marcar terapia SUS até 20/12, anotar 3 irritações/dia
+- **Sleep Tracking:** Dormir 23h, acordar 05h, anotar sono diário
+
+---
+
+## 🔥 ATUALIZAÇÃO 08/DEZ/2025
+
+### Sistemas Ativados
+1. ✅ **Saúde Mental** → Check-in domingo 20h, terapia SUS até 20/12
+2. ✅ **Sleep Tracking** → Papel cabeceira, meta 23h-05h
 
 ### Status Atual
 - **Ansiedade:** 9/10
-- **Sono:** Completamente desregulado
+- **Sono:** Completamente desregulado (meta: regularizar)
+- **Daniel:** Morando junto desde 24/11
 - **CETENS:** Saída planejada março/2026
-- **Repositórios criados:** +33 em 16 dias
 
 ---
 

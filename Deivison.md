@@ -21,11 +21,9 @@
 
 | **Estado Civil**
 
-| **Composição Familiar**
-
-| **Pai**
-
-| **Moradia**
+| **Composição Familiar** | Mãe solteira + 3 filhos (Deivison + 2 irmãos) |
+| **Pai** | Ausente ("típica família brasileira") |
+| **Moradia** | Apartamento próprio MCMV + Daniel (sobrinho, 25, desde 24/11/2025) |
 
 | **IMC Atual**
 
@@ -397,6 +395,45 @@ Sistema escrito = interromper automatismo. Substituir "impulso→ação" por "im
 > **"Tive um pai ausente. Minha mãe é solteira. Óbvio, aquela típica família brasileira. Uma mãe, três filhos e foda-se. Só isso."**
 
 Tom: resignação, não ressentimento. Normalizou ausência paterna como "padrão brasileiro".
+
+---
+
+### 🏠 Moradia Atual - Convivência com Daniel (Atualização 08/12/2025)
+
+**Situação:**
+
+- **Morador:** Daniel (sobrinho)
+- **Idade:** 25 anos (mesma idade de Deivison)
+- **Desde:** ~24/11/2025 (~2 semanas)
+- **Status:** Desempregado
+
+**Dinâmica:**
+
+- **Divisão despesas atual:** Deivison 100%
+- **Divisão futura:** 50/50 quando Daniel trabalhar
+- **Convivência:** Tranquila, sem conflitos relatados
+
+**Sistema de Tarefas Criado (08/12/2025):**
+
+| Dia | Tarefa Daniel |
+|-----|---------------|
+| Segunda | Lavar louça + organizar cozinha |
+| Terça | Varrer casa + limpar banheiro |
+| Quarta | Lavar roupas |
+| Quinta | Passar roupas |
+| Sexta | Limpar cozinha completa |
+| Sábado | Trocar lençóis |
+| Domingo | Batch cooking juntos |
+
+**Impacto psicológico:**
+
+- Quebra da solitude absoluta (agora tem companhia)
+- Responsabilidade financeira aumentada (100% despesas)
+- Oportunidade de desenvolver habilidades sociais/convivência
+- Potencial estresse se Daniel não contribuir
+
+**Observações:**
+Daniel é família próxima, não é "hóspede". A convivência foi aceita naturalmente, sem resistência. Deivison demonstra maturidade ao criar sistema de tarefas ao invés de acumular ressentimento.
 
 ---
 
