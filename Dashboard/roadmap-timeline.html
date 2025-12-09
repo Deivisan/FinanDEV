@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roadmap Vida Deivison | Timeline Completa</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: linear-gradient(135deg, #0d0d0d 0%, #1a1a2e 100%);
+            color: #e0e0e0;
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 60px;
+            padding: 40px 20px;
+            background: rgba(30, 30, 30, 0.7);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            border: 1px solid rgba(0, 255, 136, 0.2);
+        }
+
+        h1 {
+            font-size: 3rem;
+            background: linear-gradient(135deg, #00ff88, #00d4ff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            color: #888;
+            font-size: 1.2rem;
+        }
+
+        .timeline {
+            position: relative;
+            padding: 40px 0;
+        }
+
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 4px;
+            height: 100%;
+            background: linear-gradient(180deg, #00ff88, #00d4ff);
+            border-radius: 2px;
+        }
+
+        .timeline-item {
+            display: flex;
+            margin-bottom: 60px;
+            position: relative;
+        }
+
+        .timeline-item:nth-child(odd) {
+            flex-direction: row;
+        }
+
+        .timeline-item:nth-child(even) {
+            flex-direction: row-reverse;
+        }
+
+        .timeline-content {
+            width: 45%;
+            padding: 30px;
+            background: rgba(30, 30, 30, 0.8);
+            backdrop-filter: blur(10px);
+            border-radius: 16px;
+            border: 1px solid rgba(0, 255, 136, 0.3);
+            transition: all 0.3s ease;
+        }
+
+        .timeline-content:hover {
+            transform: translateY(-5px);
+            border-color: #00ff88;
+            box-shadow: 0 10px 40px rgba(0, 255, 136, 0.3);
+        }
+
+        .timeline-marker {
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 24px;
+            height: 24px;
+            background: #00ff88;
+            border-radius: 50%;
+            border: 4px solid #0d0d0d;
+            z-index: 10;
+        }
+
+        .date {
+            font-size: 0.9rem;
+            color: #00ff88;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+
+        .event-title {
+            font-size: 1.5rem;
+            color: #fff;
+            margin-bottom: 15px;
+        }
+
+        .event-description {
+            color: #aaa;
+            margin-bottom: 15px;
+        }
+
+        .tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-top: 15px;
+        }
+
+        .tag {
+            padding: 4px 12px;
+            background: rgba(0, 255, 136, 0.1);
+            border: 1px solid rgba(0, 255, 136, 0.3);
+            border-radius: 12px;
+            font-size: 0.85rem;
+            color: #00ff88;
+        }
+
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 60px;
+        }
+
+        .stat-card {
+            padding: 30px;
+            background: rgba(30, 30, 30, 0.8);
+            backdrop-filter: blur(10px);
+            border-radius: 16px;
+            border: 1px solid rgba(0, 255, 136, 0.3);
+            text-align: center;
+        }
+
+        .stat-number {
+            font-size: 3rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, #00ff88, #00d4ff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .stat-label {
+            color: #888;
+            margin-top: 10px;
+        }
+
+        @media (max-width: 768px) {
+            .timeline::before {
+                left: 20px;
+            }
+
+            .timeline-item {
+                flex-direction: column !important;
+            }
+
+            .timeline-content {
+                width: 100%;
+                margin-left: 40px;
+            }
+
+            .timeline-marker {
+                left: 20px;
+            }
+
+            h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🗺️ Roadmap Vida Deivison</h1>
+            <p class="subtitle">Timeline Completa | Backup Mental Cronológico</p>
+            <p class="subtitle">Atualizado: 08 de dezembro de 2025</p>
+        </header>
+
+        <div class="timeline">
+            <!-- 02/11/2025 - Início Sistema -->
+            <div class="timeline-item">
+                <div class="timeline-marker"></div>
+                <div class="timeline-content">
+                    <div class="date">02 NOV 2025</div>
+                    <h3 class="event-title">🎯 Início do Sistema Backup Mental</h3>
+                    <p class="event-description">
+                        Primeira conversa profunda com Grok. Criação do repositório FinanDEV.
+                        Decisão: "Se não tá escrito, esqueço" - sistema escrito como hack da vida.
+                    </p>
+                    <div class="tags">
+                        <span class="tag">Alimentação</span>
+                        <span class="tag">Rotinas</span>
+                        <span class="tag">Meta 70kg</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 16/11/2025 - Expansão Massiva -->
+            <div class="timeline-item">
+                <div class="timeline-marker"></div>
+                <div class="timeline-content">
+                    <div class="date">16 NOV 2025</div>
+                    <h3 class="event-title">🚀 Expansão Massiva - 7 Sistemas Criados</h3>
+                    <p class="event-description">
+                        Conversa 3h+ (460 msgs). Criados: Ambiente-Dev, Camerologia, Face-Capture,
+                        Finanças-Automatizadas, Emails-Organização, Google-Photos, Mini-Sistemas.
+                        Specs hardware corrigidas (B450M, 32GB 3 pentes).
+                    </p>
+                    <div class="tags">
+                        <span class="tag">+7 Sistemas</span>
+                        <span class="tag">1539+ linhas</span>
+                        <span class="tag">Scrape v3.0</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 24/11/2025 - Daniel Chega -->
+            <div class="timeline-item">
+                <div class="timeline-marker"></div>
+                <div class="timeline-content">
+                    <div class="date">~24 NOV 2025</div>
+                    <h3 class="event-title">🏠 Daniel Começa a Morar Junto</h3>
+                    <p class="event-description">
+                        Sobrinho Daniel (25 anos) se muda para o apartamento.
+                        Status: Desempregado. Necessidade: criar rotina compartilhada inteligente.
+                    </p>
+                    <div class="tags">
+                        <span class="tag">Convivência</span>
+                        <span class="tag">Nova Dinâmica</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 02/12/2025 - Atualização Geral -->
+            <div class="timeline-item">
+                <div class="timeline-marker"></div>
+                <div class="timeline-content">
+                    <div class="date">02 DEZ 2025</div>
+                    <h3 class="event-title">📊 Atualização Geral - 16 Dias Depois</h3>
+                    <p class="event-description">
+                        Conversa 2h+. Peso 60kg (mais magro), sono desregulado (~00:00).
+                        Ansiedade 9/10. Orgulho: +33 repositórios criados em 16 dias.
+                        "Criar repositórios é backup eterno da minha existência."
+                    </p>
+                    <div class="tags">
+                        <span class="tag">+33 Repos</span>
+                        <span class="tag">Ansiedade 9/10</span>
+                        <span class="tag">Sono Crítico</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 05/12/2025 - Salário -->
+            <div class="timeline-item">
+                <div class="timeline-marker"></div>
+                <div class="timeline-content">
+                    <div class="date">05 DEZ 2025</div>
+                    <h3 class="event-title">💰 Salário Recebido</h3>
+                    <p class="event-description">
+                        Salário caiu. Contas pagas: Luz (R$ 150), Internet (R$ 79,99).
+                        Pendente: Água (R$ 150). Sobra atual: R$ 1.129,00.
+                    </p>
+                    <div class="tags">
+                        <span class="tag">Finanças</span>
+                        <span class="tag">R$ 1.129 sobra</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 08/12/2025 - Hoje -->
+            <div class="timeline-item">
+                <div class="timeline-marker"></div>
+                <div class="timeline-content">
+                    <div class="date">08 DEZ 2025 - HOJE</div>
+                    <h3 class="event-title">🎯 Reorganização Completa</h3>
+                    <p class="event-description">
+                        Criação sistema convivência Daniel. Lista compras R$ 300.
+                        Prompt modo voz atualizado v2.0. Roadmap timeline HTML5.
+                        Pendente: pagar água, fazer compras, tirar fotos tracking.
+                    </p>
+                    <div class="tags">
+                        <span class="tag">Convivência</span>
+                        <span class="tag">Lista Compras</span>
+                        <span class="tag">Prompt v2.0</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- FUTURO - Dezembro 2025 -->
+            <div class="timeline-item">
+                <div class="timeline-marker"></div>
+                <div class="timeline-content">
+                    <div class="date">15 DEZ 2025</div>
+                    <h3 class="event-title">⏰ Deadline Final Dezembro</h3>
+                    <p class="event-description">
+                        Meta: Estar de boa. Contas pagas, compras feitas, roupas novas.
+                        3+ aplicações Playwright funcionando. Canal anônimo: modelo 3D gerado.
+                    </p>
+                    <div class="tags">
+                        <span class="tag">Meta</span>
+                        <span class="tag">Deadline</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- FUTURO - Março 2026 -->
+            <div class="timeline-item">
+                <div class="timeline-marker"></div>
+                <div class="timeline-content">
+                    <div class="date">MAR 2026</div>
+                    <h3 class="event-title">🚪 Saída CETENS</h3>
+                    <p class="event-description">
+                        Deadline saída CETENS. Salário-alvo novo emprego: R$ 2.000 líquido.
+                        Preferência: iniciativa privada, home office, TI/suporte/infra.
+                    </p>
+                    <div class="tags">
+                        <span class="tag">Novo Emprego</span>
+                        <span class="tag">R$ 2k alvo</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- FUTURO - Maio 2026 -->
+            <div class="timeline-item">
+                <div class="timeline-marker"></div>
+                <div class="timeline-content">
+                    <div class="date">MAI 2026</div>
+                    <h3 class="event-title">💪 Meta Física Alcançada</h3>
+                    <p class="event-description">
+                        Peso: 70kg (+10kg massa muscular). Sem dor nas costas, sem fadiga.
+                        "Mais vivo, mais saúde, mais móvel, rápido, forte, resistência."
+                        Juventude 25-30 não jogada fora.
+                    </p>
+                    <div class="tags">
+                        <span class="tag">70kg</span>
+                        <span class="tag">Meta Final</span>
+                        <span class="tag">Transformação</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="stats">
+            <div class="stat-card">
+                <div class="stat-number">37</div>
+                <div class="stat-label">Dias de Sistema</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">+33</div>
+                <div class="stat-label">Repositórios Criados</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">626</div>
+                <div class="stat-label">Mensagens Capturadas</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">10kg</div>
+                <div class="stat-label">Meta Ganho Peso</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">R$ 1.129</div>
+                <div class="stat-label">Sobra Atual</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">2</div>
+                <div class="stat-label">Moradores</div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Animação de entrada
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        });
+
+        document.querySelectorAll('.timeline-content').forEach(el => {
+            el.style.opacity = '0';
+            el.style.transform = 'translateY(20px)';
+            el.style.transition = 'all 0.6s ease';
+            observer.observe(el);
+        });
+
+        // Atualização automática stats
+        setInterval(() => {
+            const now = new Date();
+            const start = new Date('2025-11-02');
+            const days = Math.floor((now - start) / (1000 * 60 * 60 * 24));
+            document.querySelector('.stat-number').textContent = days;
+        }, 60000);
+    </script>
+</body>
+</html>

@@ -337,18 +337,18 @@ git clone [repo]
 
 ## 📝 Última Atualização
 
-**Data:** 02/12/2025  
+**Data:** 08/12/2025 (domingo)  
 **Mudanças:**
 
-- ✅ **Conversa Grok 2h+** - Atualização geral após 16 dias (transcricao-atualizacao-geral-02dez2025.md)
-- ✅ **Vida-Deivison.json v1.2.0** - Novos campos: sono, newjob, ansiedade 9/10, saída CETENS março/2026
-- ✅ **+33 repositórios** - Criados nos últimos 16 dias (backup eterno)
-- ✅ **NewJob integrado** - 10 aplicações manuais LinkedIn, Playwright pendente storage_state
-- ✅ **Metas Dezembro** - Dia 5 salário, Dia 6 Playwright, Dia 15 deadline
-- ✅ **Chefe CETENS** - Tiago (nome capturado)
-- ✅ **Canal Anônimo** - Avatar 3D + voz IA planejado (500 fotos, zero modelo)
+- ✅ **Vida-Deivison.json v1.3.0** - Dados 08/12: salário recebido, sobra R$ 1.129, Daniel morando junto
+- ✅ **Sistema Convivência Daniel** - Rotina compartilhada, divisão tarefas, regras claras
+- ✅ **Lista Compras Atualizada** - R$ 300 quinzena, 2 pessoas, mercado Assaí/Tomba
+- ✅ **PROMPT-MODO-VOZ v2.0** - Contexto completo atualizado, Daniel incluído
+- ✅ **Roadmap Timeline HTML5** - Visualização cronológica disruptiva completa
+- ✅ **Pendências Críticas** - Pagar água, fazer compras, tirar fotos tracking
+- ✅ **Tiago CETENS** - Percebeu incômodo, não conversado ainda
 
-**Próxima sessão:** Dia 5 (sexta) após receber salário
+**Próxima ação:** Pagar conta água + fazer compras hoje (domingo)
 
 ---
 
