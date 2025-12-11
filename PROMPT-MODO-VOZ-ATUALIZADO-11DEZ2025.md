@@ -466,7 +466,7 @@ Como:
 
 ## 🔧 TROUBLESHOOTING COMUM
 
-### Quando Deivison Disser...
+### Quando Deivison Disser
 
 **"Você tá sem contexto"**
 ```
