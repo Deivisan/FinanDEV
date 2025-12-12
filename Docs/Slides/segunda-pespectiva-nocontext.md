@@ -84,6 +84,13 @@ plt.savefig('Docs/Slides/FinanDEV_Presentation/slide11_finances.png', dpi=150)
 
 Observação final: peça ao Notebook LM para "ler todo o diretório do repositório FinanDEV" antes de gerar e indicar claramente quais arquivos não foram encontrados (placeholder TO_FILL:<path>). Gerar também um manifest.json com fontes de dados usadas por slide.
 
+Checklist final para o Notebook LM antes de gerar os slides:
+- Ler `CORE/` (principais arquivos). Se faltar algo, indicar com TO_FILL:<path>.
+- Ler `Transcricoes/*.md` e extrair 3 citações curtas para usar nos slides (identificar fonte e linha).
+- Checar `Ambiente-Dev/Celular/Camerologia/README.md` para gerar slide Face-Capture (9-pose grid, pipeline MediaPipe → SVG).
+- Para cada gráfico, indicar a fonte exata (arquivo/linha JSON) no `manifest.json`.
+- Gerar `manifest.json` com: slides, fontes_usadas, arquivos_encontrados, arquivos_faltantes, imagens_geradas.
+
 Contexto adicional e dados extraídos do workspace (leitura completa):
 - Repositórios relacionados: DeiviTech, FreelancerDeiviTech, automation-scripts, Eventos-FSA, finandev, Experimentos, DeiviTech-Monte-Seu-Notebook. Use commits/datas como proxy de esforço e evolução. Se possível gere um gráfico de commits por repo (últimos 6 meses).
 - NewJob & storage_state: estado atual - 10 aplicações manuais LinkedIn, 0 automáticas; storage_state.json pendente — sugerir operação no script New-Job (Playwright) para salvar state.
