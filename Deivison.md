@@ -1,10 +1,10 @@
-# 🧠 DEIVISON SANTANA - Perfil Psicológico Completo
+# 📦 Deslocado para CORE/
 
-> **"Impulsividade infantil extrema. Tudo que vejo, como/faço/jogo. Depois penso 'caralho, gastei mais que deveria'. Se não tá escrito, esqueço. Sistema escrito = hack vida."**
+Este arquivo foi movido para `CORE/Deivison.md` e continua sendo a referência principal do perfil.
+
+Para editar o perfil completo, abra: `CORE/Deivison.md`.
 
 ---
-
-## 📋 IDENTIFICAÇÃO
 
 | **Campo**
 

@@ -163,6 +163,20 @@ FinanDEV/
 
 ---
 
+## ✅ Estrutura Imediata — CORE
+
+`CORE/` contém os arquivos de contexto principal:
+
+- `CORE/Deivison.md` — Perfil psicológico (fonte de verdade para identidade)
+- `CORE/DeiviTech.md` — Documentação técnica mestre
+- `CORE/ROTINA-VIDA-DEIVISON-2025.md` — Roadmap & rotina mestre
+- `CORE/Vida-Deivison.json` — JSON vetorial denso (fonte para agentes)
+
+Consulte `Plano-Organizado.md` para o plano de organização e próximos passos.
+
+
+---
+
 ## 🔑 Arquivos Principais
 
 ### 1. `Vida-Deivison.json` (⭐ LEIA PRIMEIRO)

@@ -1,9 +1,8 @@
-# 💡 Ideias Futuras - FinanDEV Backup Mental
+📦 Arquivo movido para `Ideias/IDEIAS-FUTURAS.md` para manter raiz mais limpa. Para editar, abra e altere a cópia em `Ideias/`.
 
-> **Propósito:** Capturar TODAS as ideias mencionadas nas conversas que ainda não viraram implementação  
-> **Fontes:** Transcrições 16/11/2025 (finandev-backup-mental + prompt-modo-voz + outros)  
-> **Status:** Brainstorm ativo → Priorizar → Implementar
+---
 
+**Nota:** Conteúdo original arquivado em `Ideias/IDEIAS-FUTURAS.md`.
 ---
 
 ## 🎯 Mini-Sistemas Propostos (Não Implementados)

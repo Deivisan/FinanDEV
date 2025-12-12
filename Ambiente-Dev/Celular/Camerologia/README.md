@@ -300,3 +300,14 @@
 ---
 
 *Sistema experimental | Documentação em construção | Pode virar repo standalone futuro*
+
+## Merge: Conteúdo prático consolidado (do root `Celular/Camerologia`)
+
+- Tracking Corpo (9 poses) e Metadata padrão
+- Estrutura de pastas (Tracking-Corpo, Outfit-Diario, 360-Setup)
+- Configs GCam (MGC 9.4 BSG, LMC 8.4 Hasli) - modos recomendados e configurações detalhadas
+- Metodologia para fotos consistentes (mesma hora, iluminação, poses e metadata em arquivo markdown)
+- Scripts sugeridos: `update_visual_analysis.py`, `auto-capture-face.py` (Termux) e `camera-debug.sh`
+
+**Observação:** O conteúdo prático foi arquivado em `Celular/Camerologia/README_legacy.md` e consolidado aqui para padronizar processos e testes.
+

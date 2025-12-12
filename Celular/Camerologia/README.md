@@ -1,9 +1,8 @@
-# 📷 Camerologia - Sistema Captura Visual Poco X5
+# 📦 Camerologia movida para Ambiente-Dev/Celular/Camerologia/
 
-> **Propósito:** Otimizar câmera Poco X5 para backup mental visual (corpo, setup, ambiente)  
-> **Origem:** Conversa linha 695-731 (transcricao-prompt-modo-voz)  
-> **Status:** Planejamento inicial
+Este conteúdo foi consolidado em `Ambiente-Dev/Celular/Camerologia/README.md` para centralizar recursos técnicos e metodologias práticas. A versão antiga está arquivada como `Celular/Camerologia/README_legacy.md`.
 
+**Por favor, edite a versão consolidada no caminho acima (Ambiente-Dev/Celular/Camerologia/README.md).**
 ---
 
 ## 🎯 Objetivo

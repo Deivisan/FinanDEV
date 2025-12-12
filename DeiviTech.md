@@ -1,16 +1,8 @@
-# DeiviTech - Technical Context Documentation
+# 📦 DeiviTech movido para CORE/
 
-> **Document Purpose:**
+Este arquivo foi movido para `CORE/DeiviTech.md` para centralizar o contexto técnico.
 
-> **Version:**
-
-> **Last Updated:**
-
-> **Maintainer:**
-
-> **Target Audience:**
-
-> **Location:** `c:\Projetos\finandev\DeiviTech.md`
+Para acessar o contexto completo e técnico, abra: `CORE/DeiviTech.md`.
 
 ---
 

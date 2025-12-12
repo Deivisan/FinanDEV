@@ -1,8 +1,9 @@
-# 🎯 ROADMAP DE VIDA - DEIVISON SANTANA 2025
 
-> **Missão:** Ganhar 10kg massa muscular, estruturar rotina alimentação/sono, dominar IA (MCPs, agentes), sistema vida reutilizável com backup mental.
+# 📦 Rotina movida para CORE/
 
-> **Status:** 🚀 **Iniciando 02/NOV/2025** - Primeira compra domingo 8h
+Este roadmap foi movido para `CORE/ROTINA-VIDA-DEIVISON-2025.md` para manter o `CORE/` como fonte principal de identidade e rotina.
+
+Edite por favor em `CORE/ROTINA-VIDA-DEIVISON-2025.md`.
 
 ---
 

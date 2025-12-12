@@ -6,27 +6,10 @@
     "descricao": "Sistema backup mental completo - Deivison Santana 2025",
     "formato": "vetorial_denso",
     "objetivo": "Contexto universal clonável, interável por qualquer IA"
-  },
-  "perfil": {
-    "identidade": {
-      "nome": "Deivison Santana",
-      "idade": 25,
-      "altura": 1.70,
-      "peso_atual_kg": 60,
-      "peso_meta_kg": 70,
-      "prazo_meta": "2026-05-01",
-      "localizacao": "Feira de Santana/BA"
-    },
-    "trabalho": {
-      "cargo": "Técnico em TI",
-      "local": "UFRB CETENS",
-      "chefe": "Tiago",
-      "horario": "07:20-18:00",
-      "dias": ["segunda", "terca", "quarta", "quinta", "sexta"],
-      "transporte": "ônibus_06h00",
-      "vale_alimentacao": 420.0,
-      "sentimento": "Frustrado - falta de respeito por profissional TI, alunos provocam",
-      "saida_prazo": "março/2026",
+  {
+    "moved_to": "CORE/Vida-Deivison.json",
+    "note": "Full JSON moved to CORE/ for centralized context. Keep this placeholder as a lightweight reference."
+  }
       "salario_alvo_novo_emprego": 2000,
       "preferencia_setor": "privado_remoto"
     },
