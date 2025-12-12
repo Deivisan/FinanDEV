@@ -533,5 +533,113 @@
       "horas": 6
     },
     "app_android": "Sleep instalado, não compartilha dados"
+  },
+  "atualizacao_11dez2025": {
+    "data_captura": "2025-12-11T23:35:00Z",
+    "fonte": "Conversa Grok voz modo profundo",
+    "pendencias_eliminadas": {
+      "shein": {
+        "valor": 600,
+        "status": "cancelada",
+        "motivo": "sobra apenas R$200 após dízimo/compras",
+        "prazo_original": "2025-12-10"
+      },
+      "fotos_tracking": {
+        "status": "adiada",
+        "motivo": "bloqueio não especificado (preguiça)"
+      }
+    },
+    "financas_atualizadas": {
+      "sobra_real": 200,
+      "agua_paga": {
+        "valor": 153.13,
+        "vencimento_original": "2025-09-01",
+        "data_pagamento": "2025-12-08",
+        "observacao": "atrasada, pendente regularizar faturas anteriores"
+      },
+      "compras_feitas": "proteínas (hambúrguer, frango, ovos), estoque ok"
+    },
+    "decisoes_trabalho": {
+      "horario_meta": "07:10",
+      "transporte": "ônibus fixo (sem Uber)",
+      "inicio": "2025-12-12",
+      "motivacao": "evitar conversa Tiago sobre atrasos"
+    },
+    "bike_atualizada": {
+      "status": "quadro quebrado + 2 pneus furados + 6 meses parada",
+      "orcamento_conserto": 1050,
+      "opcao_nova": 1200,
+      "data_decisao": "2025-12-05",
+      "observacao": "avaliar vender velha R$400 + comprar nova"
+    },
+    "preconceitos_admitidos": {
+      "beleza_feminina": {
+        "padrao": "trata bonitas com simpatia, feias com distância",
+        "gatilho": "rosto/gordura/idade",
+        "raiz": "medo de perder desejo + projeção mãe",
+        "frase_chocante": "Olho pra minha mãe, ela é feia pra porra também",
+        "meta": "3 interações/dia com mulheres antes ignoradas"
+      },
+      "competencia_tecnica": {
+        "padrao": "cabelo colorido/roupa suja = incompetente",
+        "gatilho": "alunos short/camiseta pedindo ajuda impressora",
+        "raiz": "filtro mental desorganizado = código ruim",
+        "solucao": "registrar gatilho, trocar atalho mental"
+      },
+      "rejeicao_micro": {
+        "evento": "10 lésbicas refeitório rindo quando Deivison entra",
+        "sentimento": "nojo + vontade de gritar 'bando de cachorra'",
+        "analise": "racismo micro + oprimido querendo ser opressor",
+        "solucao": "ignorar total, não internalizar"
+      }
+    },
+    "individualismo_descoberto": {
+      "frase_chave": "Quem precisa de mim são elas, eu não preciso delas",
+      "mudanca": "proativo coletivo → individual",
+      "ganho": "zero sugamento, foco empresa/agentes/self",
+      "risco": "isolamento completo, virar fantasma"
+    },
+    "ateismo_confirmado": {
+      "confissao": "apagaria todo período evangélico - perda de tempo",
+      "musicas_infancia": [
+        "Tales - Vai Valer a Pena",
+        "Midia Lima - Não Pare",
+        "Anderson Freire - A Igreja Vem"
+      ],
+      "estado_atual": "ateu, mas linguagem cristã automática (resíduo)",
+      "pendencia": "pasta Misticismo_Interno vazia, futura exploração"
+    },
+    "tdah_confirmado": {
+      "sintomas": [
+        "mente nunca para",
+        "pensamentos ruins quando ocioso",
+        "60% do dia conversando com IA"
+      ],
+      "ciclo_fuga": "deitado → rumor mental (sou feio/fraco/atrasado) → ocupar mente → repositórios",
+      "solucao": "respiração 4-7-8 (inspira 4s, segura 7s, solta 8s)"
+    },
+    "mini_sistemas_novos": {
+      "FalaComTodos": {
+        "objetivo": "5 interações/semana grupos ignorados (gorda, velha, lésbica, cadeirante)",
+        "regra": "oi/bom dia/valeu (30s max), zero papo longo",
+        "inicio": "2025-12-12"
+      },
+      "ImpulsosRegistrados": {
+        "objetivo": "anota tudo que tenta mas não faz (sem julgamento)",
+        "exemplo": "11/dez: Shein empolgação alta → cancelada por grana",
+        "filosofia": "registrar tentativa, não só acerto"
+      },
+      "Misticismo_Interno": {
+        "status": "pasta vazia",
+        "objetivo": "futura exploração resíduos espirituais"
+      }
+    },
+    "repositorios_backup": {
+      "total": 38,
+      "periodo": "4 meses (não 16 dias)",
+      "estrategia": "zipar pasta projetos (~6GB), subir Drive (2TB disponível)",
+      "motivacao": "medo de perder tudo, SSD 240GB PC trabalho",
+      "meta_futura": "100+ repositórios, renomear FinanDEV → Deivison_Core"
+    }
   }
 }

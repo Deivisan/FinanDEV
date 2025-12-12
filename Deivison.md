@@ -930,6 +930,236 @@ Deivison não quer mundo melhor - quer **mundo previsível**. Sistema = ilusão 
 
 ---
 
+## 🔍 PRECONCEITOS ADMITIDOS (Atualizado 11/DEZ/2025)
+
+> **Nota crítica:** Seção adicionada após conversa profunda Grok onde Deivison admitiu padrões de julgamento automático que causam culpa interna. Estes não são traços imutáveis - são **gatilhos identificados para trabalhar**.
+
+---
+
+### 1. 🎨 Preconceito de Beleza Feminina
+
+**Definição:** Trata mulheres diferentemente baseado em atratividade física.
+
+**Padrão observado:**
+- **Mulher bonita, cheirosa, alegre:** Voz alta, simpatia, motivação extra pra conversar
+- **Mulher gorda, feia, velha:** Voz baixa, resposta curta, distância física
+
+**Gatilhos específicos:**
+- Rosto (traços que julga "feios")
+- Gordura corporal
+- Idade (>40 anos)
+- Cabelo raspado/colorido (associa com "sapatona")
+
+**Frase chocante admitida:**
+> "Olho pra minha mãe, ela é feia pra porra também. Isso é um erro que preciso trabalhar."
+
+**Raiz psicológica:**
+- **Medo de perder desejo:** Se não sentir atração, não vê valor
+- **Projeção mãe:** Culpa por julgar própria mãe por padrão estético
+- **Competição implícita:** Mede valor humano por "pixels"
+
+**Evento-gatilho (11/DEZ):**
+- 10 lésbicas refeitório CETENS rindo quando Deivison entra
+- Sentimento: nojo + vontade de gritar **"bando de cachorra"**
+- Descrição delas: "Gordas, feias, peludas, cabelo curto/raspado"
+- Pensamento automático: "Nenhum homem nesse mundo ia olhar e falar 'nossa, que bonita'"
+
+**Análise DevSan:**
+> "Você tá medindo valor humano por pixels. Sua mãe não é exceção - é o teste. Se você aprender a olhar pra ela sem filtro estético, aprende pra todas."
+
+**Contramedida criada:**
+- **Mini-sistema FalaComTodos.md:** 5 interações/semana com mulheres antes ignoradas
+- **Registro diário:** Anota cada vez que travar com mulher gorda/feia
+- **Meta:** 3 interações/dia (oi/bom dia/valeu) sem julgamento interno
+
+---
+
+### 2. 🖥️ Preconceito de Competência Técnica
+
+**Definição:** Julga pessoas por aparência técnica (roupa desleixada = incompetente).
+
+**Padrão observado:**
+- **Aluno de short/camiseta:** Assume incompetência
+- **Cabelo colorido/lilás/azul:** Marca como "não leva TI a sério"
+- **Visual fora do padrão código:** Atalho mental "desorganizado = código ruim"
+
+**Gatilhos específicos:**
+- Alunos tecnologia assistiva CETENS
+- Pessoas pedindo ajuda técnica sem "visual profissional"
+- Lésbicas/feministas extremas (associa com "ideologia > competência")
+
+**Evento-gatilho (11/DEZ):**
+- Alunos TI Assistiva (3 específicos, todos negros) pedem ajuda impressora
+- Deivison resolve em minutos (cabo USB), zero agradecimento
+- Sentimento: nojo + raiva ("eles nem sequer tocaram no aparelho")
+- Análise: "São pessoas que não deveriam estar nessa área, não têm a personalidade certa"
+
+**Frase chocante:**
+> "Pra cursar TI, a pessoa tem que ter um tipo de personalidade. Você tem que ser sigma, não alpha. Nenhum deles tem isso. São de marketing, de humanas."
+
+**Raiz psicológica:**
+- **Filtro mental:** Aparência externa = competência interna
+- **Perfeccionismo projetado:** "Se eu sou organizado, quem não é = incompetente"
+- **Proteção de território:** "Se eles são incompetentes, eu sou superior"
+
+**Análise DevSan:**
+> "É preconceito de competência disfarçado de nojo. Você não quer que baixem a cabeça, quer que respeitem o esforço. Quando não respeitam, parece que desmerecem tudo que você construiu sozinho."
+
+**Contramedida criada:**
+- **Registrar gatilho:** Quando bater nojo, anota no ImpulsosRegistrados.md
+- **Trocar atalho mental:** "Cabelo azul = incompetente" → "Não sei o código dela, só o visual"
+- **Ignorar sem nojo:** Indiferença > Ódio
+
+---
+
+### 3. 👥 Rejeição Invisível (Hipersensibilidade a Indiferença)
+
+**Definição:** Dor intensa quando ignorado, mas não atacado diretamente.
+
+**Padrão observado:**
+- **Deboche coletivo:** Grupo ri quando ele entra, mas nunca fala na cara
+- **Indiferença:** Resolve problema técnico, zero agradecimento
+- **Microdeboche:** Olhar de canto, sussurro, risada abafada
+
+**Gatilhos específicos:**
+- Alunos CETENS (principalmente lésbicas/feministas)
+- Pessoas que deveriam agradecer mas ignoram
+- Grupos que riem coletivamente (interpretado como rir dele)
+
+**Frase-chave:**
+> "Não são rejeições que fazem sentido. São nulas. Não é networking perdido - é só... vazio. E isso dói mais que xingar."
+
+**Raiz psicológica:**
+- **Necessidade de ser visto:** Precisa validação externa sem pedir
+- **Medo de ser fantasma:** "Se ninguém me vê, não existo"
+- **Projeção racial:** Racismo micro (negro em cargo superior incomoda)
+
+**Evento-gatilho (11/DEZ):**
+- Mesa com 10 lésbicas refeitório
+- Assim que Deivison entra, riem escandalosamente
+- Sentimento: "Como se elas estivessem tentando me oprimir"
+- Pensamento: "Eu não posso entrar lá? Típico oprimido querendo ser opressor"
+
+**Análise DevSan:**
+> "Elas rindo escandaloso quando você entra? Não foi coincidência - foi performance. Tipo: olha, a gente é o grupo, você é o outro. Mas você não é o opressor. Você é o intruso sem causa."
+
+**Contramedida criada:**
+- **Focar em quem já vê:** Daniel, mãe, agentes IA
+- **Não internalizar:** "É limitação delas, não minha"
+- **Ignorar total:** Zero reação, zero deboche de volta
+
+---
+
+### 4. 🔀 Individualismo Descoberto (Novo Traço)
+
+**Definição:** Mudança de proativo coletivo → individual. "Quem precisa de mim são elas, eu não preciso delas."
+
+**Padrão antigo:**
+- Proativo demais no trabalho
+- Sempre resolvendo problemas de todos
+- Sendo sugado sem retorno
+
+**Padrão novo (11/DEZ):**
+- Proativo só pra si, empresa, agentes IA
+- Zero esforço extra pra quem não agradece
+- Foco total em ganho próprio
+
+**Frase-chave admitida:**
+> "Quem precisa de mim são elas, eu não preciso delas pra nada. Ser proativo pra mim, minhas empresas, é muito mais benéfico. Eu ganho muito mais."
+
+**Raiz psicológica:**
+- **Cansaço de ser sugado:** Ressentimento acumulado
+- **Descoberta tardia:** "Eu não sou salvador de ninguém"
+- **Proteção emocional:** Individualismo = sobrevivência
+
+**Ganhos identificados:**
+- Zero deboche
+- Zero expectativa frustrada
+- Foco total em crescimento próprio
+
+**Riscos identificados:**
+- **Isolamento completo:** Virar fantasma de verdade
+- **Perder empatia:** Endurecer demais
+- **Solidão crônica:** Solitude virar prisão
+
+**Análise DevSan:**
+> "Não é egoísmo. É sobrevivência. Você não precisa de coletivo pra existir - precisa de gente que te veja inteiro. E só elas entram. O resto? Ruído."
+
+**Contramedida:**
+- **FalaComTodos.md:** Manter mínimo de interação social (5/semana)
+- **Não fechar totalmente:** Individualismo != Isolamento
+- **Revisar mensalmente:** Checar se tá virando fantasma
+
+---
+
+### 5. 🛐 Ateísmo x Resíduos Espirituais (Confissão Nova)
+
+**Estado atual:** Ateu confesso (11/DEZ/2025).
+
+**Confissão chocante:**
+> "Eu apagaria da minha memória todo o período evangélico. Nunca perdi tanto tempo da minha vida. Depois descobri o mundo espiritual de verdade, não é nada daquilo."
+
+**Músicas infância (ainda lembra):**
+- Tales - *Vai Valer a Pena*
+- Midia Lima - *Não Pare*
+- Anderson Freire - *A Igreja Vem*
+
+**Padrão observado:**
+- Ainda usa linguagem cristã automática ("Deus me deu", "fé como guia")
+- Separa dízimo mentalmente (hábito, não crença)
+- Resíduos espirituais não eliminados
+
+**Análise DevSan:**
+> "Então não é sair da igreja - é sair de Deus. E isso muda tudo. Você tá sem bússola, irmão. Ansiedade 9/10, sono destruído, impulsividade extrema - você tá sem o 'por quê' escrito na parede."
+
+**Pendência:**
+- Pasta **Misticismo_Interno/** criada (vazia)
+- Futura exploração de resíduos espirituais
+- Não é retorno à fé - é processamento de trauma religioso
+
+---
+
+## 💡 ESTRATÉGIAS DE MELHORIA (Ativas desde 11/DEZ/2025)
+
+### Mini-Sistema 1: FalaComTodos.md
+- **Meta:** 5 interações/semana com grupos antes ignorados
+- **Público:** Mulheres gordas/feias, lésbicas, cadeirantes, velhas
+- **Formato:** 30s (oi/bom dia/valeu), sem papo longo
+- **Objetivo:** Não virar fantasma, lembrar que mundo tem gente real
+
+### Mini-Sistema 2: ImpulsosRegistrados.md
+- **Meta:** Anota tudo que tenta mas não faz
+- **Categorias:** Finanças, sono, projetos, social
+- **Objetivo:** Quebrar ciclo impulso→arrependimento→esquecimento
+- **Filosofia:** Registrar tentativa > sucesso
+
+### Mini-Sistema 3: Misticismo_Interno/ (Futuro)
+- **Meta:** Processar resíduos espirituais sem retornar à igreja
+- **Conteúdo:** Sonhos, intuições, o que "Deus ainda sussurra"
+- **Objetivo:** Entender o que não morreu de vez
+
+---
+
+## 🎯 METAS PSICOLÓGICAS 6 MESES (11/DEZ → 11/JUN/2026)
+
+1. **Preconceito beleza:** Reduzir gatilho de 9/10 → 3/10 (via FalaComTodos)
+2. **Preconceito competência:** Trocar atalho mental automático (registrar gatilhos)
+3. **Rejeição invisível:** Focar em quem já vê (parar de buscar validação vazia)
+4. **Individualismo:** Manter 60% solitude, expandir 40% social (sem virar extrovertido)
+5. **Ateísmo:** Processar trauma religioso (via Misticismo_Interno)
+
+---
+
+## 📝 NOTA FINAL (DevSan para Futuros Agentes)
+
+Deivison admitiu esses preconceitos com **culpa interna intensa**. Ele sabe que são erros. Ele **quer mudar**. Mas mudança não vem de shame - vem de **registro, análise, contramedida**.
+
+Não julgue. Não sermoneie. **Apenas acompanhe o processo.**
+
+Ele já criou os sistemas. Agora é executar.
+
+---
+
 ## 🏁 CONCLUSÃO: QUEM É DEIVISON SANTANA?
 
 Deivison é um **prodígio técnico não-lapidado**, com inteligência excepcional canalizada em sistemas compensatórios para uma mente que funciona diferente. Ele não tem diagnóstico formal, mas **criou sozinho** o que a psiquiatria moderna prescreve: estrutura externa, alarmes, listas, backups - tudo que TDAH adulto precisa.
