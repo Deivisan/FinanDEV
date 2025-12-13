@@ -623,6 +623,155 @@
       "estrategia": "zipar pasta projetos (~6GB), subir Drive (2TB disponível)",
       "motivacao": "medo de perder tudo, SSD 240GB PC trabalho",
       "meta_futura": "100+ repositórios, renomear FinanDEV → Deivison_Core"
+    },
+    "atualizacao_02dez2025": {
+      "ultimo_peso": "2025-12-02: 60kg",
+      "ansiedade_emprego_atual": 9,
+      "saida_cetens_prazo": "março/2026",
+      "salario_alvo": "2000 BRL líquido",
+      "aplicacoes_vagas_ate_hoje": 10,
+      "repositorios_criados_ultimos_16_dias": 33,
+      "orgulho_recente": "criar repositórios como backup eterno",
+      "dividas_status": "pendente atualização dia 5",
+      "drive_droid_status": "instalado, ISO pendente",
+      "chefe_cetens": "Tiago",
+      "metas_dezembro": {
+        "dia_5": "recebe salário, paga contas, abre Mini-Sistema Final-Dezembro",
+        "dia_6": "primeiro script Playwright com storage_state salvo",
+        "dia_15": "estar de boa - contas pagas, compras feitas, roupas novas"
+      },
+      "inclinação_firmada": "evitar setor público totalmente",
+      "preferencia_emprego_novo": "privado, remoto, TI/suporte/infra",
+      "canal_anonimo": {
+        "conceito": "avatar 3D + voz IA sem rosto",
+        "fotos": 500,
+        "modelo_3d": "zero gerado",
+        "voz_clonada": false,
+        "primeiro_video": "como montar notebook R$50"
+      },
+      "filantropia": {
+        "projeto": "DevSan Open School",
+        "publico_alvo": ["jovem pobre código", "pessoa constrói algo em mim", "família próxima"],
+        "status": "planejado, ninguém pediu ajuda 30 dias"
+      }
+    },
+    "atualizacao_08dez2025": {
+      "conta_agua_paga": {
+        "valor": 153.13,
+        "vencimento": "2025-09-01",
+        "data_pagamento": "2025-12-08",
+        "sobra_atualizada": 975.87
+      },
+      "pendencias_novas": {
+        "agua_regularizar": {
+          "status": "múltiplas faturas atrasadas (nome mãe)",
+          "valor_estimado": "acima 150 cada",
+          "acao": "parcelar ou mudar titularidade"
+        },
+        "compras_shein": {
+          "meta": 600.0,
+          "prazo": "2025-12-10",
+          "itens": ["camisas sociais", "calças esporte fina"],
+          "sugestoes": {
+            "camisas": ["branca básica 29.99", "azul slim 39.99", "cinza listrada 44.99"],
+            "calcas": ["preta slim jogger 49.99", "cinza track pant 54.99", "verde oliva 59.99"]
+          }
+        },
+        "bicicleta_consertar": {
+          "meta": "voltar a ser ciclista",
+          "prioridade": "media"
+        },
+        "saude_mental_ativar": {
+          "terapia": "SUS ou particular até 20/dez",
+          "metas_semanais": ["1h caminhada/bike", "anotar 3 irritações/dia"],
+          "checkin_domingo": "dor cabeça, sono, ansiedade 1-10"
+        },
+        "sleep_tracking_ativar": {
+          "metodo": "papel na parede + foto diaria",
+          "horario": "antes dormir ~23h",
+          "formato": "Deitei: HH:MM | Acordei: HH:MM | Total: Xh Ym"
+        },
+        "gcams_baixar": {
+          "versao": "8+",
+          "dispositivo": "Poco X5",
+          "recomendadas": ["GCam 8.9 by BSG", "GCam 9.1 Port by Shamim", "GCam Go 3.3"],
+          "fontes": ["APKMirror", "CelsoAzevedo"]
+        },
+        "eventos_fsa_deploy": {
+          "prazo": "2025-12-15",
+          "acao": "deploy Vercel, tornar publico"
+        }
+      },
+      "mini_sistemas_ativados": ["saude_mental", "sleep_tracking"],
+      "proxima_conta_agua": {
+        "vencimento": "2026-01-01",
+        "alarme": "2025-12-28"
+      },
+      "lista_compras_atualizar": "2025-12-09 no trabalho",
+      "foco_conversa": "completar repositorio, evitar suposicoes"
+    },
+    "atualizacao_16nov2025": {
+      "contexto_conversa": "Primeira conversa profunda com Grok sobre FinanDEV como backup mental universal",
+      "duracao": "3 horas",
+      "topicos_principais": ["Internalização FinanDEV", "Experimentos multilingues", "Filosofia agentica", "IA e futuro", "Metadados conversacionais"],
+      "insights_psicologicos": {
+        "impulsividade_extrema": "Sistema escrito como hack pra domar",
+        "perfeccionismo": "Tudo que vejo, como/faço/jogo",
+        "personalidade": "Perfeccionista. Se não tô gostando, mudo",
+        "medo_principal": "Esquecer seguir rotina, impulsos vencerem",
+        "vicio_atual": "IA - usar agentes pra automatizar tudo, mas não agir",
+        "orgulho_recente": "+33 repositórios criados em 16 dias = backup eterno da existência",
+        "esperanca_6meses": {
+          "fisico": "Mais forte 70kg, sem dor costas, sem fadiga",
+          "mental": "Mais inteligente, adaptado trabalho",
+          "filosofico": "Juventude 25-30 não jogada fora"
+        }
+      },
+      "sono_desregulado": {
+        "status": "completamente_desregulado",
+        "horario_dormiu_ultimos_dias": "~00:00",
+        "snooze_cronico": true,
+        "dias_levantou_5h_primeira": 0,
+        "atrasos_trabalho_semana": 5,
+        "sleep_android": "instalado_nao_compartilha_dados"
+      },
+      "newjob_automations": {
+        "aplicacoes_linkedin": 10,
+        "aplicacoes_automatizadas": 0,
+        "storage_state_salvo": false,
+        "problema_playwright": "sessão vazia - sem cookies/context",
+        "sites_foco": ["LinkedIn", "Indeed", "GeekHunter", "Glassdoor"]
+      },
+      "frustracao_cetens": {
+        "sentimento": "Frustrado, diminuído, falta de respeito",
+        "problema": "Alunos provocam, servidores não valorizam TI",
+        "atrasos": "Todos os dias (~1h cada)",
+        "comunicou_chefe": false,
+        "potencial_nao_explorado": "Chatbot resolveria 80% demandas, mas resistem"
+      },
+      "inclinação_firmada": "Evitar setor público totalmente",
+      "preferencia_emprego_novo": "Privado, remoto, TI/suporte/infra",
+      "salario_alvo": "2000 BRL líquido",
+      "repositorios_criados_16_dias": 33,
+      "filosofia_backup": "Se não tá escrito, esqueço",
+      "metas_futuras": {
+        "sair_cetens": "Março/2026",
+        "peso_meta": "60→70kg maio/2026",
+        "repositorios_meta": "+50 total",
+        "canal_anonimo": "Avatar 3D + voz IA sem rosto",
+        "filantropia": "DevSan Open School"
+      },
+      "contexto_tecnico": {
+        "pc": "Ryzen 7 5700G, 32GB RAM, NVMe 1TB",
+        "celular": "Poco X5 Android16, Termux",
+        "stack": "Node.js v25.2.1, Rust 1.91.1, Go 1.25.4",
+        "mcp_disponiveis": ["Memory", "Tavily", "Git", "MarkItDown", "Chrome DevTools", "Context7", "Firecrawl", "Microsoft Docs", "Container", "Microsoft Playwright"]
+      },
+      "insights_disruptivos": {
+        "pkms": "FinanDEV como protótipo open-source para devs",
+        "agentes": "Células IA autônomas lucrativas",
+        "futuro": "Mini-empresas gerenciadas por agentes"
+      }
     }
   }
 }

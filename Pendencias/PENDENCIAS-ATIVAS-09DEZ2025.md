@@ -1,7 +1,8 @@
-# ⚠️ Pendências Ativas - Atualizado 09/12/2025
+# ⚠️ Pendências Ativas - Atualizado 13/12/2025
 
-> **Fonte:** Conversa voz Grok 08/12/2025 + atualizações anteriores
+> **Fonte:** Conversa voz Grok 08/12/2025 + atualizações anteriores + contexto agregado ~90% Markdowns
 > **Status:** Sistema ativo
+> **Contexto Psicológico Integrado:** Impulsividade infantil (doces/compras), preconceito beleza feminina/competência técnica, rejeição invisível (deboche coletivo), individualismo descoberto, TDAH confirmado (mente nunca para, 60% dia IA)
 
 ---
 
@@ -17,16 +18,11 @@
 - **Prazo:** Até 15/12/2025
 
 ### 2. Comprar Roupas Shein
-- **Orçamento:** R$ 600,00
-- **Deadline:** 10/12/2025 (2 dias!)
-- **Itens:**
-  - Camisas sociais (3-4 unidades)
-  - Calças esporte fina (3-4 unidades)
-- **Sugestão Grok:**
-  - Camisas: R$ 30-45 cada
-  - Calças: R$ 50-60 cada
-  - Total estimado: R$ 280-400
-- **Ação:** Pesquisar + comprar hoje/amanhã
+- **Status:** CANCELADA (sobra ~R$ 200 insuficiente)
+- **Orçamento original:** R$ 600,00
+- **Motivo cancelamento:** Priorização contas + dieta
+- **Itens planejados:** Camisas sociais (3-4), calças esporte fina (3-4)
+- **Ação:** Reavaliar janeiro/2026 com salário
 
 ### 3. Atualizar Lista Compras
 - **Quando:** Amanhã 09/12 no trabalho (8h)
@@ -112,9 +108,50 @@
 - **Status:** Não tiradas
 - **Ação:** Tirar hoje/amanhã
 
+### 13. Backup Repositórios
+- **Objetivo:** Zipar 38 repos (~6GB), subir Drive (2TB disponível)
+- **Motivo:** Backup eterno existência
+- **Prazo:** Até 15/12/2025
+
+### 14. Renomear FinanDEV
+- **Novo nome:** Deivison_Core ou CentralDeVida
+- **Prazo:** 31/12/2025
+
+### 15. Update Vida-Deivison.json
+- **Dados:** Psicologia (preconceitos, individualismo, TDAH), finanças, mini-sistemas novos
+- **Prazo:** Até 15/12/2025
+
+### 16. Implementar Mini-Sistemas
+- **Ação:** Criar MDs para FalaComTodos, ImpulsosRegistrados; ativar Misticismo_Interno
+- **Prazo:** Até 15/12/2025
+
+### 17. Finalizar Prompt 5-Stage
+- **Objetivo:** Privatização repo (estágios: contexto denso, limpeza, estrutura, deploy, backup)
+- **Prazo:** Até 20/12/2025
+
 ---
 
-## 📊 RESUMO PRIORIDADES
+## � MINI-SISTEMAS NOVOS (Ativar)
+
+### 13. FalaComTodos.md
+- **Objetivo:** 5 interações/semana com grupos antes ignorados (preconceito beleza feminina/competência)
+- **Grupos-alvo:** Mulheres gordas/feias/velhas, lésbicas, cabelos coloridos
+- **Meta:** Tratar igual, registrar impulsos
+- **Prazo:** Ativar até 15/12/2025
+
+### 14. ImpulsosRegistrados.md
+- **Objetivo:** Anotar tudo que tenta mas não faz (ex: acordar cedo, dieta, compras)
+- **Método:** Diário, sem julgamento
+- **Prazo:** Ativar até 15/12/2025
+
+### 15. Misticismo_Interno/
+- **Objetivo:** Explorar resíduos espirituais (ateísmo confirmado, músicas infância evangélicas)
+- **Status:** Pasta vazia futura
+- **Prazo:** Criar até 20/12/2025
+
+---
+
+## �📊 RESUMO PRIORIDADES
 
 | Prioridade | Pendência | Prazo | Status |
 |------------|-----------|-------|--------|
@@ -130,17 +167,25 @@
 | 🟢 MÉDIO | storage_state.json | 15/12 | ⏳ Pendente |
 | 🔵 LONGO | Sair CETENS | Mar/26 | ⏳ Planejando |
 | 🔵 LONGO | Fotos tracking | Dez/25 | ⏳ Pendente |
+| 🟠 NOVO | FalaComTodos | 15/12 | ⏳ Pendente |
+| 🟠 NOVO | ImpulsosRegistrados | 15/12 | ⏳ Pendente |
+| 🟠 NOVO | Misticismo_Interno | 20/12 | ⏳ Pendente |
+| 🟢 MÉDIO | Backup repos | 15/12 | ⏳ Pendente |
+| 🟢 MÉDIO | Renomear repo | 31/12 | ⏳ Pendente |
+| 🟡 IMPORTANTE | Update JSON | 15/12 | ⏳ Pendente |
+| 🟡 IMPORTANTE | Implementar mini-sistemas | 15/12 | ⏳ Pendente |
+| 🟢 MÉDIO | Finalizar prompt 5-stage | 20/12 | ⏳ Pendente |
 
 ---
 
-## 🎯 AÇÕES HOJE (09/12 - Segunda)
+## 🎯 AÇÕES HOJE (13/12 - Quinta)
 
-1. ✅ Água paga (R$ 153,13)
-2. ⏳ Atualizar lista compras (8h trabalho)
-3. ⏳ Pesquisar Shein (camisas sociais + calças)
-4. ⏳ Anotar sono papel (começar tracking)
-5. ⏳ Ir posto SUS (marcar terapia)
+1. ⏳ Backup repositórios (zipar 38 repos ~6GB, subir Drive)
+2. ⏳ Update Vida-Deivison.json (integrar psicologia + finanças)
+3. ⏳ Implementar mini-sistemas (criar FalaComTodos.md, ImpulsosRegistrados.md)
+4. ⏳ Anotar sono papel (continuar tracking)
+5. ⏳ Pesquisar peças bike (orçamento ~R$ 1.050)
 
 ---
 
-*Atualizado: 09/DEZ/2025 01:15 | Próxima revisão: 15/DEZ/2025*
+*Atualizado: 13/DEZ/2025 | Próxima revisão: 15/DEZ/2025*
