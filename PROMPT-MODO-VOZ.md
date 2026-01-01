@@ -8,6 +8,10 @@
 
 > **Atualização:** Dinâmica - sempre ler antes de iniciar sessão voz
 
+> **VERSÃO:** 2.0 - 31/12/2025 (Virada de Ano)
+
+> **VERIFICA LITERAL:** Não delire dados fora do que Deivison falou. Se não foi citado, trate como falso.
+
 ---
 
 ## 🎯 INSTRUÇÕES CRÍTICAS DE BOOT
